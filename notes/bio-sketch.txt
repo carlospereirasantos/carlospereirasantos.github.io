@@ -1,0 +1,337 @@
+Prof. Carlos Pereira Santos is Professor of Applied Data Science and Artificial Intelligence at
+Breda University of Applied Sciences (BUas), the Netherlands. His research focuses on data-
+driven real-time systems, applied AI, game engine technology, and distributed computing.
+Alongside his technical work, he shapes the university's AI policy, infrastructure, and
+laboratory strategy, and leads applied AI research initiatives.
+I’m Carlos Pereira Santos
+Professor Data Science and Artificial Intelligence
+
+-- 1 of 11 --
+
+2
+4
+1
+5
+3
+7
+6
+8
+9
+Personal Statement
+After 10 years in industry as Technical manager, I spend the last 15 as a researcher, educator, and team
+builder working at the intersection of Artificial Intelligence, Game Technology, and interactive digital
+experiences. My career has been guided by a consistent goal: to improve European competitiveness in Digital
+Entertainment and Creative Industries by establishing practice-oriented connections between academia and
+industry — finding research-based solutions to real problems, and educating professionals who make a
+meaningful difference.
+After a decade leading the Cradle research team, I developed a research identity that bridges industry
+practice and academic rigour. My work spans embodied AI, serious games, virtual production, and extended
+realities, always grounded in real-world deployment and societal relevance. None of this has been achieved
+alone; every milestone reflects the collective effort of the researchers, students, and industry partners I have
+had the privilege of working with.
+I am seeking a part-time role at TU/e as a deliberate bridge between an applied and a research university. My
+goal is to strengthen the connection between both institutions, anchoring joint research while bringing
+applied implementation expertise, lab infrastructure, and industry networks. I aim to allocate my time as
+follows: Research (30%), Education (20%), Impact (20%), Team & Leadership (30%).
+My longer-term ambition is to contribute to a stronger, more innovation-driven European research ecosystem
+— one where applied sciences universities and research universities work in genuine complementarity,
+producing research that is both methodologically rigorous and relevant to industry and society. I am
+committed to contributing to Europe's digital sovereignty, ensuring that creative, AI, and design industries
+develop on European values of openness, responsibility, and human-centred innovation. This role also
+represents a deliberate shift in my career focus: from building and leading large applied research teams,
+toward deepening research quality and co-developing the institutional partnerships that will define the next
+period of my academic contribution.
+Ultimately, what motivates me most is the opportunity to inspire and equip the next generation — because I
+firmly believe that the young researchers and students we work with today will be the ones solving
+tomorrow's most important challenges.
+10
+
+-- 2 of 11 --
+
+3
+4
+1
+5
+2
+7
+6
+8
+9
+Identity as an Educator
+BUas operates within a Project-Based Learning model where students engage with real-
+world challenges across integrative blocks. My role as an educator goes beyond teaching, it
+involves designing the conditions in which meaningful learning can happen.
+Education achievements
+I have been involved in the design and development of several programmes within the
+Academy for AI, Games and Media: the Bachelor in Applied Data Science and Artificial
+Intelligence, the Master in Game Technology, and the forthcoming Master in Physical AI.
+This work includes curriculum architecture, Intended Learning Outcomes definition, directly
+linking European projects (VPSN, AVENUE, VPSN2) to educational programme , and the
+development of lab facilities, including the AI Makerspace, XR Stage Lab, Motion Capture
+Studio, and Photogrammetry Studio that connects research with practice. Alongside this, I
+have built sustained relationships with industry partners, ensuring that the challenges
+students work on are shaped by real professional contexts.
+Vision of Education
+I believe Europe needs stronger innovation pathways where practitioners with deep industry
+knowledge can apply research methods to solve real problems. Universities of Applied
+Sciences are uniquely positioned to build these pathways, but only if education and research
+are genuinely mutually reinforcing: student projects feed into research questions, research
+outputs feed back into educational design, and industry partners co-shape both.
+The BUas-TU/e partnership is central to realising this vision at scale. By combining BUas's
+applied, practice-oriented culture with TU/e's research rigour and doctoral infrastructure, we
+can create learning environments where students benefit from both institutions' expertise —
+and where supervision becomes a collaborative research act rather than an administrative
+responsibility.
+Educator
+10
+
+-- 3 of 11 --
+
+4
+3
+1
+5
+2
+7
+6
+8
+9
+Course 	Years 	ETCS 	Role
+Master Media Innovation - Technical Module 	MSc 	2018-2022 	15 ECTS 	Responsible
+Master Game Technology 	MSc 	2022-2024 	60 ECTS 	Lecturer
+Factsheet - Education
+Educational model: BUas Academy for AI, Games and Media operates fully within a Project-Based Learning (PBL) model. The academic
+year is divided into 4 blocks, each with a single integrative student project worth 15 ECTS run by many lectures. Teaching activities take
+the form of project definition, advising on Intended Learning Outcomes (ILOs), and research mentorship rather than lecture-based
+delivery.
+Graduation Year 	PhD Supervision 	MSc Thesis 	BA Thesis
+2025 	2 (on-going) 	0 	1
+2024 	1 (on-going) 	1 	1
+2023 	2 	1
+2022 	1 	1
+2021 	3 	0
+10
+
+-- 4 of 11 --
+
+Identity as a Researcher & Vision of the Research Field
+I am an applied researcher working at the intersection of Game Technology, Artificial Intelligence, and
+human-computer interaction. My research asks how intelligent, interactive systems can be designed to
+produce insight and impact in real-world contexts, from understanding human behaviour and
+experiences, to AI-driven tools for complex societal decision-making.
+I research I do has multiple audiences in mind: publications for academic communities, frameworks and
+tools transferable to educational practice, and solutions directly usable by industry partners. This triple
+orientation reflects my conviction that applied sciences research is the critical bridge between
+fundamental inquiry and societal relevance.
+Main Research Achievements (last 8 years)
+Four key outputs demonstrate the breadth and applied impact of my research:
+Procedural Ocean (2023–2024): Led Horizon Europe project generating AI-driven 3D offshore
+environments based on GIS data for energy planning and decision-making. Published BUILD-IT 2023,
+COG 2026.
+PlanV (2021–2023): Virtual Productions applied research (w/ Painting Practice) using VR pre-
+visualisation built on Unreal Engine, enabling film and television production professionals to iterate on
+set design, cameras, lighting, and animation in real time, reducing production costs while increasing
+efficiency. Conceived deployed on His Dark Materials (BBC/HBO) and Wednesday (Netflix).
+VIBE (2018–2023): Led project developing photogrammetry-based digital human avatars and
+embodied conversational agents for medical simulation training. Published ACM IVA 2023, ACM IUI
+2023.
+MSP Challenge (2016–2019): Co-developed multi-awarded serious game platform for Marine Spatial
+Planning across five international seas. Published in Journal of Ocean Technology and Ecology &
+Society.
+Research Ambitions & Strategy (next 5–10 years)
+My agenda continues to center on Human collaboration with Intelligent Systems, driven from the Game
+Technologies and Digital Twins, and I will explore how Physical AI can be embodied, grounded in physical
+environments, and support human decision-making.
+The main driver, developing research on ethical by design AI, and the use of creative practices at the
+intersection of AI, design, and societal impact.
+5
+3
+1
+4
+2
+7
+6
+8
+9
+Research
+Maritime Spatial Planning Challenge
+Avenue Report presentation
+Procedural Ocean - Shipping routes	Vibe - Digital Human
+10
+
+-- 5 of 11 --
+
+Factsheet - Funded Research Projects
+Project 	Funding 	Dates 	Role
+VPSN2 - Virtual Productions Studio Network 	Erasmus+ 	2025-2028 	Principal Investigator
+AVENUE - European ecosystems for Audiovisual Education and Training Network for European Vocational Excellence 	Erasmus+ 	2025-2029 	Principal Investigator
+KreativEU - Long-term institutional, structural and strategic cooperation on Europe’s cultural heritage - Sustainability of AI 	European Alliance 	2024-2027 	Work Package Leader
+VPSN - Virtual Productions Studio Network 	Erasmus+ 	2023–2026 	Principal Investigator
+AICI - AI in the Creative Industry — Generative AI opportunities and challenges for Creative Digital Industry 	Erasmus+ 	2024–2025 	Principal Investigator
+Illiad - Procedural Ocean - Auto-generated 3D environments for offshore energy planning and decision-making 	Horizon 	2023-2024 Principal Investigator &
+Technical Coordinator
+VIBE - Realistic animated face avatars based on 3D photogrammetry for medical education 	OPZuid / Regional 	2018–2023 Principal Investigator &
+Technical Coordinator
+MSP Challenge - Multi-awarded serious game for Marine Spatial Planning across 5 international seas 	Horizon Europe 	2016–2019 	Technical Coordinator
+6
+3
+1
+4
+2
+7
+5
+8
+9
+10
+
+-- 6 of 11 --
+
+7
+3
+1
+4
+2
+6
+5
+8
+9
+Identity as a Value Creator & Vision of Impact
+I see impact as the natural endpoint of applied research, the moment when a tool, framework,
+or platform moves beyond the lab and changes how people work, decide, or learn. My impact
+spans three domains: industry practice (tools deployed in professional film and healthcare),
+policy and governance (serious game platforms used by marine planners and government
+agencies), and education and society (AI literacy frameworks and Virtual Productions
+Community adopted across Europe).
+Main Achievements in Impact (last 8 years)
+VP Gathering: Founded and organised annual Virtual Production industry-education
+conference in Breda, for the last 6 years, and now bringing 250 participants bridging
+education, research and creative industry practice at national and international level.
+Development of advanced BUas Lab Facilities: Established and led development of the AI
+Makerspace, XR Stage, XR Lab, Motion Capture Studio, and Photogrammetry Studio —
+infrastructures available for education, research, and industry partners across BUas and the
+Netherlands.
+Educational Programme Support: Co-developed the Applied Data Science & AI (ADS&AI)
+BSc programme at BUas, and contributed externally to the development of obstetric
+simulation training through the VIBE project, and embedding research outcomes directly
+into professional medical education.
+Keynote presentations and Industry Partnerships: Established and maintains
+communication and strategic partnerships with Epic Games, NVIDIA, and working now with
+Google DeepMind, connecting BUas research and education to leading global technology
+organisations.
+KreativEU — leading the work across an alliance of 11 European universities, developing
+shared frameworks for responsible and sustainable AI in creative industries and cultural
+heritage contexts.
+Ambitions & Strategy for Impact
+My ambition is to establish BUas-TU/e collaboration focusing on applied AI impact in the
+Brabant region and beyond. This means co-developing an industry network where research
+questions are co-shaped by professional partners, outcomes are rapidly transferred into
+practice, and open science principles guide dissemination. I will continue pursuing funding that
+rewards societal relevance alongside academic rigour.
+Impact
+XR Stage Lab - Edu Workshop
+AI Makerspace Lab - George 	VP Gathering 2026
+VP Gathering 2026
+10
+
+-- 7 of 11 --
+
+8
+3
+1
+4
+2
+7
+5
+9
+Activity 	Dates 	Role
+Peer-review Publications 	2002–Present With over 40 peer-reviewed publications, focusing in IEEE and ACM conferences in the areas of AI,
+technical solutions, and machine human interaction.
+Invited Speaker in International Events 	2020-Present
+Invited Speaker and Keynotes to several international over 40+ events: Sustainable Tourism Mobility
+Forum (Nov 2025), SURF.nl — Virtual Spaces: Behind the scenes (Sep 2024), LevelUp Conference
+(Aug 2023), AI Forward Forum & Google Developer (Mar 2023).
+VP Gathering — Conference Organiser 	2020-Present Founded and led annual Virtual Production industry-education conference in Breda; now attracting
+250+ national and international professionals.
+BUas AI Strategy Implementation 	2024–Present Part of the group leading the BUas institutional AI strategy, implementation and innovation
+leadership.
+Direct Industry Collaboration in Projects and Events 	2020-Present Directly collaborations with industry partners, including big brands: Epic Games, ROE Visual,
+Amazon, HP, Canon, Google, Sony, Chaos across 20+ applied research projects and events.
+Development of Several Lab Facilities 	2018-Present Developed several Educational and Research infrastructures: Photogrammetry Studio (2018), XR
+Stage (2020), Motion Capture (2023) and AI Makerspace (2026).
+Visiting Researcher, Griffith University, Australia 	2023 Invited to New York Counterpoint short film production; exploring joint research and developing a
+Shared PhD protocol.
+6
+Factsheet - Impact
+10
+
+-- 8 of 11 --
+
+9
+3
+1
+4
+2
+6
+5
+7
+8
+VPSN 2 - Workshop 2026
+10
+Team and Leader
+Identity as a Leader & Vision of Academic Citizenship
+My identity is shaped by two decades of experience across industry and academia: as a technical and project lead on critical safety software for the European Space
+Agency, and as the founder and leader of multiple research teams at BUas. I understand leadership from both sides: what it means to be an effective team member who
+contributes to shared goals, and what it takes to build a team from scratch and guide it to independence.
+I want to be clear that none of my achievements are individual. Every project, programme, and platform I have been associated with is the result of collective effort —
+and I am genuinely appreciative of every person I have had the pleasure of collaborating with. I believe good leadership is about people development, but the growth of
+the individuals behind them, good outputs are a byproduct.
+My role has been to create the conditions for that collaboration to thrive: designing the structure, recruiting the right people, establishing shared culture and working
+agreements, and stepping back as teams like Cradle and the XR Stage became self-sustaining, and now I am doing the same with the AI Makerspace.
+Leadership Development Ambitions
+My leadership ambitions operate at three levels.
+At team level, I aim to continue developing research leadership capacity within BUas, mentoring junior researchers into PI roles and supporting staff pursuing doctoral
+training at TU/e.
+At institutional level, I am working directly with the Academy Management Team and BUas Executive Board on AI strategy and research governance, and aim to
+formalise the BUas-TU/e partnership into a sustainable collaborative structure with shared supervision and joint industry engagement.
+At European level, through consortia, I will continue building leadership roles in research projects and alliances that advance responsible AI and practice-oriented
+research across the continent.
+Academy AI, Games and Media Research 2024	XR Lab + Interrnships 2025
+
+-- 9 of 11 --
+
+3
+1
+4
+2
+7
+5
+Activity 	Dates 	Role
+Data Science and AI R&D Team 	2025-Present
+Manager: Started to developed a new R&D group now with 3 FTEs focus on
+Artificial Intelligence research. I as involved in the hiring procedure, deadlines,
+quality, planning and task division.
+AI Makerspace Team 	2026-Present Manager: Successfully developed, and managed a group of 1 FTEs (4 persons) focus
+on coordination and management of the Physical AI Lab.
+BUas AI Pioneer Team 	2024–Present 	Member of BUas institutional AI strategy and innovation leadership team.
+XR Stafe Team 	2020-2025 Manager: Successfully developed, and managed a group of 1.2 FTEs (3 persons)
+focus on coordination and management of the XR Stage and MoCap Studio.
+Cradle R&D Team 	2016-2025
+Responsible: Successfully developed, and coordinated a very qualified R&D group
+(cradle.buas.nl) now with 20 FTEs focus on research linked with Creative Industries. I
+as involved in the hiring procedure, deadlines, quality, planning and task division.
+6
+Factsheet - Team
+10
+8
+9
+
+-- 10 of 11 --
+
+santos.c@buas.nl	Email :
+Thank you
+I have been building bridges, between education, research and practice, between people, and I
+am looking forward to contributing the energy, curiosity, and collaborative spirit to drive
+positive impact and solving important challenges.
+
+-- 11 of 11 --
+

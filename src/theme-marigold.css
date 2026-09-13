@@ -1,0 +1,80 @@
+/* Theme layer — overrides the Modernist token sheet only.
+   Link AFTER _ds/.../styles.css. No new component classes: the design system's
+   own classes pick these up.
+   Mono violet scheme: --color-accent and --color-accent-2 carry the same role,
+   so the system's two accent slots never conflict on the page.
+   Corners are softened from the system's 0px, per request. */
+
+:root {
+  --color-accent: #7b3fc7;
+  --color-accent-100: #f7f2fe;
+  --color-accent-200: #eadcfc;
+  --color-accent-300: #d7bff8;
+  --color-accent-400: #b78ef0;
+  --color-accent-500: #9459e0;
+  --color-accent-600: #7b3fc7;
+  --color-accent-700: #6230a0;
+  --color-accent-800: #472474;
+  --color-accent-900: #2f1a4a;
+
+  --color-accent-2: #7b3fc7;
+  --color-accent-2-100: #f7f2fe;
+  --color-accent-2-200: #eadcfc;
+  --color-accent-2-300: #d7bff8;
+  --color-accent-2-400: #b78ef0;
+  --color-accent-2-500: #9459e0;
+  --color-accent-2-600: #7b3fc7;
+  --color-accent-2-700: #6230a0;
+  --color-accent-2-800: #472474;
+  --color-accent-2-900: #2f1a4a;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+}
+
+/* Solid accent surfaces carry white type at the 600 step and deeper. */
+.btn-primary { background: var(--color-accent-600); color: #fff; }
+.btn-primary:hover { background: var(--color-accent-700); }
+.btn-primary:active { background: var(--color-accent-800); }
+.tag-outline { border-color: var(--color-accent-600); color: var(--color-accent-700); }
+
+/* Violet tags: a stronger tint and the deepest ink step, so 11px type stays
+   comfortably readable rather than washing out on the light ground. */
+.tag-accent-2 { background: var(--color-accent-2-200); color: var(--color-accent-2-900); }
+
+/* Accent INK everywhere runs at the 700 step (5.2:1 on this ground); the base
+   violet is kept for chrome — rules, hover underlines, tag borders. */
+.btn-ghost { color: var(--color-accent-700); }
+.card-kicker { color: var(--color-accent-700); }
+
+/* The poster statement. */
+footer { background: var(--color-accent-600) !important; }
+
+/* Projects: chunky, deliberately irregular blocks. Three shapes cycle so no
+   two neighbours match. */
+article[data-proj] { background: var(--color-surface); }
+article[data-proj]:nth-of-type(3n+1) { border-radius: 52px 16px 60px 20px; }
+article[data-proj]:nth-of-type(3n+2) { border-radius: 16px 60px 20px 52px; }
+article[data-proj]:nth-of-type(3n+3) { border-radius: 60px 24px 16px 56px; }
+[data-proj-media] { border-radius: var(--radius-lg); }
+
+/* Scroll reveal. The hidden state only applies once the script has marked the
+   root, so the page is fully readable if JS never runs. */
+[data-reveal-ready] [data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.55s cubic-bezier(0.22, 0.61, 0.24, 1),
+              transform 0.55s cubic-bezier(0.22, 0.61, 0.24, 1);
+}
+[data-reveal-ready] [data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal-ready] [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

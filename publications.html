@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTNCFJS3SE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-FTNCFJS3SE');
+</script>
+<link rel="stylesheet" href="_ds/modernist-3abced17-6ff9-46fd-8675-dba4e49056a9/styles.css">
+<script src="_ds/modernist-3abced17-6ff9-46fd-8675-dba4e49056a9/_ds_bundle.js"></script>
+<link rel="stylesheet" href="src/theme-marigold.css">
+<style>
+  body { margin: 0; }
+  a { color: var(--color-accent-700); }
+  a:hover { color: var(--color-accent-800); }
+  @media (max-width: 760px) {
+    .split { grid-template-columns: 1fr !important; }
+  }
+</style>
+</helmet>
+
+<div style="max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,48px) clamp(48px,7vw,88px)">
+
+  <nav style="display:flex;align-items:baseline;gap:var(--space-6);padding:var(--space-6) 0 var(--space-4);border-bottom:2px solid var(--color-divider);flex-wrap:wrap">
+    <a href="index.html" style="font-family:var(--font-heading);font-weight:800;font-size:17px;letter-spacing:-0.01em;color:var(--color-text);text-decoration:none">Carlos Pereira Santos</a>
+    <div style="display:flex;gap:var(--space-6);margin-left:auto;flex-wrap:wrap;font-family:var(--font-heading);font-weight:800;font-size:13px;letter-spacing:0.06em;text-transform:uppercase">
+      <a href="index.html" style="color:var(--color-text);text-decoration:none;padding-bottom:3px;transition:color .15s,box-shadow .15s" style-hover="color:var(--color-accent-700);box-shadow:0 3px 0 var(--color-accent)">Home</a>
+      <span style="color:var(--color-accent-700)">Publications</span>
+      <a href="projects.html" style="color:var(--color-text);text-decoration:none;padding-bottom:3px;transition:color .15s,box-shadow .15s" style-hover="color:var(--color-accent-700);box-shadow:0 3px 0 var(--color-accent)">Projects</a>
+    </div>
+  </nav>
+
+  <header data-reveal style="padding:clamp(32px,6vw,64px) 0 var(--space-8)">
+    <h6 style="margin:0 0 var(--space-4);color:var(--color-accent-700)">2002 — Present</h6>
+    <h1 style="font-size:clamp(36px,6vw,64px);line-height:1;letter-spacing:-0.03em;margin:0 0 var(--space-6);max-width:20ch">Publications</h1>
+    <p style="font-size:clamp(16px,1.8vw,19px);line-height:1.55;max-width:64ch;margin:0">Over 40 peer-reviewed publications, focusing on IEEE and ACM conferences in the areas of AI, technical solutions, and machine human interaction.</p>
+  </header>
+
+  <div style="position:sticky;top:0;z-index:5;background:var(--color-bg);border-top:2px solid var(--color-divider);border-bottom:2px solid var(--color-divider);padding:var(--space-4) 0;backdrop-filter:blur(8px)">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--space-6) var(--space-8)">
+
+      <div>
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:11px;letter-spacing:0.09em;text-transform:uppercase;color:var(--color-neutral-700);margin-bottom:var(--space-2)">Year</div>
+        <select class="input" value="{{ yearValue }}" onChange="{{ onYear }}" style="width:100%;max-width:200px">
+          <option value="all">All years</option>
+          <sc-for list="{{ yearOptions }}" as="y" hint-placeholder-count="6">
+            <option value="{{ y }}">{{ y }}</option>
+          </sc-for>
+        </select>
+      </div>
+
+      <div>
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:11px;letter-spacing:0.09em;text-transform:uppercase;color:var(--color-neutral-700);margin-bottom:var(--space-2)">Type</div>
+        <div style="display:flex;flex-wrap:wrap;gap:var(--space-2)">
+          <sc-for list="{{ kindChips }}" as="chip" hint-placeholder-count="5">
+            <button type="button" onClick="{{ chip.onClick }}" style="{{ chip.style }}" style-hover="border-color:var(--color-accent-700)">{{ chip.label }}</button>
+          </sc-for>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:11px;letter-spacing:0.09em;text-transform:uppercase;color:var(--color-neutral-700);margin-bottom:var(--space-2)">Topic</div>
+        <div style="display:flex;flex-wrap:wrap;gap:var(--space-2)">
+          <sc-for list="{{ topicChips }}" as="chip" hint-placeholder-count="7">
+            <button type="button" onClick="{{ chip.onClick }}" style="{{ chip.style }}" style-hover="border-color:var(--color-accent-700)">{{ chip.label }}</button>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:baseline;gap:var(--space-4);margin-top:var(--space-4);flex-wrap:wrap">
+      <div style="font-family:var(--font-heading);font-weight:800;font-size:13px;letter-spacing:0.04em">{{ resultLabel }}</div>
+      <sc-if value="{{ isFiltered }}" hint-placeholder-val="{{ false }}">
+        <button type="button" class="btn btn-ghost" onClick="{{ onClear }}" style="font-size:12px;padding:2px 6px">Clear filters</button>
+      </sc-if>
+    </div>
+  </div>
+
+  <sc-for list="{{ groups }}" as="group" hint-placeholder-count="4">
+    <section data-reveal style="display:grid;grid-template-columns:minmax(0,120px) minmax(0,1fr);gap:clamp(16px,3vw,40px);padding:var(--space-8) 0 0" class="split">
+      <div style="font-family:var(--font-heading);font-weight:800;font-size:clamp(28px,3.4vw,40px);line-height:1;letter-spacing:-0.03em;color:var(--color-accent-700)">{{ group.year }}</div>
+      <div>
+        <sc-for list="{{ group.items }}" as="pub" hint-placeholder-count="3">
+          <article style="padding:0 0 var(--space-6);margin-bottom:var(--space-6);border-bottom:1px solid var(--color-neutral-300);border-left:3px solid transparent;padding-left:0;transition:border-left-color .18s ease,padding-left .18s cubic-bezier(.2,.7,.3,1)" style-hover="border-left-color:var(--color-accent);padding-left:var(--space-4)">
+            <div style="display:flex;gap:var(--space-2);flex-wrap:wrap;margin-bottom:var(--space-3)">
+              <span class="tag tag-neutral" style="font-size:10px">{{ pub.kindLabel }}</span>
+              <sc-if value="{{ pub.st }}" hint-placeholder-val="{{ false }}">
+                <span class="tag tag-accent" style="font-size:10px">{{ pub.st }}</span>
+              </sc-if>
+              <sc-for list="{{ pub.tp }}" as="t" hint-placeholder-count="2">
+                <span class="tag tag-accent-2" style="font-size:10px">{{ t }}</span>
+              </sc-for>
+            </div>
+            <h3 style="font-size:clamp(18px,2vw,23px);line-height:1.2;letter-spacing:-0.02em;margin:0 0 var(--space-2);text-wrap:pretty">{{ pub.t }}</h3>
+            <p style="font-size:14px;line-height:1.5;margin:0 0 var(--space-1);color:var(--color-neutral-800)">{{ pub.a }}</p>
+            <p style="font-size:14px;line-height:1.5;margin:0">{{ pub.v }}</p>
+            <sc-if value="{{ pub.doi }}" hint-placeholder-val="{{ false }}">
+              <a href="{{ pub.doi }}" style="display:inline-block;margin-top:var(--space-2);font-size:13px;letter-spacing:0.02em">{{ pub.doi }}</a>
+            </sc-if>
+          </article>
+        </sc-for>
+      </div>
+    </section>
+  </sc-for>
+
+  <sc-if value="{{ isEmpty }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:clamp(48px,8vw,96px) 0;border-bottom:2px solid var(--color-divider)">
+      <h3 style="margin:0 0 var(--space-2)">No publications match these filters.</h3>
+      <button type="button" class="btn btn-secondary" onClick="{{ onClear }}">Clear filters</button>
+    </div>
+  </sc-if>
+</div>
+
+<footer style="background:var(--color-accent);color:#fff">
+  <div style="max-width:1180px;margin:0 auto;padding:clamp(32px,5vw,56px) clamp(20px,5vw,48px);display:flex;gap:var(--space-8);flex-wrap:wrap;font-size:14px;align-items:baseline">
+    <a href="mailto:santos.c@buas.nl" style="color:#fff;text-decoration:underline;text-underline-offset:4px">santos.c@buas.nl</a>
+    <a href="https://pure.buas.nl/" style="color:#fff;text-decoration:underline;text-underline-offset:4px">Full record on Pure</a>
+    <span style="margin-left:auto;opacity:0.75">Breda University of Applied Sciences</span>
+  </div>
+</footer>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{}}">
+const CHIP_BASE =
+  'cursor:pointer;font-family:var(--font-heading);font-weight:800;font-size:11px;' +
+  'letter-spacing:0.05em;text-transform:uppercase;padding:5px 9px;border-radius:var(--radius-sm);' +
+  'line-height:1.2;transition:background .12s,border-color .12s,transform .12s';
+
+class Component extends DCLogic {
+  state = { data: null, cv: null, year: null, kind: null, topic: null };
+
+  componentDidMount() {
+    import('./src/cv.js').then(async (cv) => {
+      const data = await cv.loadCvData('src/cv-data.json');
+      this.setState({ cv, data });
+      const reveal = await import('./src/reveal.js');
+      requestAnimationFrame(() => {
+        this.teardownReveal = reveal.observeReveals(document.getElementById('dc-root') || document.body);
+      });
+    });
+  }
+
+  componentWillUnmount() {
+    if (this.teardownReveal) this.teardownReveal();
+  }
+
+  chip(label, active, onClick) {
+    const style = active
+      ? CHIP_BASE + ';background:var(--color-accent-700);color:#fff;border:1px solid var(--color-accent-700)'
+      : CHIP_BASE + ';background:transparent;color:var(--color-text);border:1px solid var(--color-neutral-400)';
+    return { label, style, onClick };
+  }
+
+  renderVals() {
+    const { cv, data, year, kind, topic } = this.state;
+    const onClear = () => this.setState({ year: null, kind: null, topic: null });
+    if (!cv || !data) {
+      return { groups: [], yearOptions: [], kindChips: [], topicChips: [], resultLabel: 'Loading…', yearValue: 'all', isFiltered: false, isEmpty: false, onClear, onYear: () => {} };
+    }
+
+    const pubs = data.publications;
+    const shown = cv.filterPublications(pubs, { year, kind, topic });
+
+    return {
+      yearOptions: cv.years(pubs),
+      yearValue: year === null ? 'all' : String(year),
+      onYear: (e) => {
+        const v = e.target.value;
+        this.setState({ year: v === 'all' ? null : Number(v) });
+      },
+      kindChips: cv.kinds(pubs).map((k) =>
+        this.chip(cv.KIND_LABELS[k], kind === k, () => this.setState({ kind: kind === k ? null : k })),
+      ),
+      topicChips: cv.topics(pubs).map((t) =>
+        this.chip(t, topic === t, () => this.setState({ topic: topic === t ? null : t })),
+      ),
+      groups: cv.groupByYear(shown).map((g) => ({
+        year: g.year,
+        items: g.items.map((p) => ({ ...p, kindLabel: cv.KIND_LABELS[p.k] })),
+      })),
+      resultLabel:
+        shown.length === pubs.length
+          ? pubs.length + ' publications'
+          : shown.length + ' of ' + pubs.length + ' publications',
+      isFiltered: year !== null || kind !== null || topic !== null,
+      isEmpty: shown.length === 0,
+      onClear,
+    };
+  }
+}
+</script>
+</body>
+</html>

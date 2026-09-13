@@ -1,0 +1,410 @@
+Carlos Pereira Santos Curriculum Vitae
+PERSONAL INFORMATION:
+Date of birth: 13 Aug 1977
+Nationality: Portuguese
+Mobile: +31 68 404 5049
+CONTACT DETAILS:
+Email: santos.c@buas.nl
+LinkedIn: Carlos Pereira Santos on LinkedIn
+Pure: Carlos Pereira Santos on Pure
+Professional experience:
+Since 2009 Breda University of Applied Sciences
+Professor Applied Data Science and Artificial Intelligence (since Jan 2025)
+Carlos leads applied Data Science and AI research at BUas, with a focus on data-driven real-time
+systems, AI models, game engine technology, and distributed computing. He shapes the
+university's AI policy, infrastructure, and laboratory strategy, and leads applied AI research
+initiatives aligned with BUas's strategic vision, including the AI Pioneer Team, IT Server Compute
+Infrastructure and Game Hub.
+Cradle Research Lab Coordinator & Lead Researcher (2015 — 2025)
+Carlos founded, built, and led Cradle, BUas's applied research lab focused on Games, Media and
+AI, growing it from an initial concept to a team of 25 researchers (23.0 FTE) delivering over 50
+applied R&D projects across games, XR, AI, virtual production, and serious games.
+He was responsible for team design, recruitment, professional development, and budget
+management, culminating in Cradle becoming the only R&D group at a Dutch University of
+Applied Sciences to receive an all-excellent accreditation in 2024.
+Contributed to the design and development of the Applied Data Science & AI (ADS&AI) BSc
+programme. Designed, and established key BUas lab facilities: XR Stage (Virtual Production
+Studio), XR Lab, Motion Capture Studio, Photogrammetry Studio, and AI Makerspace, available
+to research, education and industry. Founded and organised annually since 2020 the Virtual
+Production Gathering, a lead conference attracting 200+ industry participants.
+Senior Lecturer (2009 — 2015)
+Carlos joined BUas as a lecturer responsible for core technical and creative modules across
+bachelor and master programmes, establishing himself as a key contributor to curriculum
+development in game technology, AI, and interactive media.
+Responsible Lecturer for: Artificial Intelligence, Game Networking, Mobile Development, Network
+Programming, and Experimental Games. Responsible Teacher for the Technology module of the
+Master Media Innovation (MMI), which he subsequently transitioned into the Master Game
+Technology (MGT) programme.
+2001-2009 GMV / Skysoft Portugal, SA
+Technical Director: Aeronautics, Security and Defence Department
+Carlos led the software design and development of technical solutions for Critical Safety Software
+like RTMC-OSPF and RTMC-IPF Subsystems of Galileo (the European GPS), promoted by the
+European Space Agency.
+Design authority and lead developer on complex network server component, of Naval radar and
+communication system, deployed in the islands of Azores, Madeira and Canaries. Lead developer
+of a propeller balancing software for Socata TB-30 Epsilon airplanes for the Portuguese Air Force
+to improve the vibration reduction.
+Lead Programmer on a 3D Aircraft Simulator, development and integration with a Radar Air
+Traffic Controller Simulator, which is used mainly for demonstrations.
+
+-- 1 of 8 --
+
+Curriculum Vitae of Prof. Carlos Pereira Santos 2/8
+2001-2003 Setúbal Polytechnic University of Technology
+Teaching Assistant in Department of System and Informatics
+Carlos was a lecturer responsible for Computer Graphics courses, teaching 2D and 3D algorithms
+using C/C++ and OpenGL. He prepared all theoretical and laboratory material and lectured on
+Relational Database Systems using Oracle SQL and web connections and interfaces.
+1998-2000 New University of Lisbon – Science and Technologic Faculty
+Junior Teaching Assistant in Department of Informatics
+Lecturer for the courses of Programming level I, level II and level IV. Lecture Relational
+Database Systems, using Oracle SQL, PL/SQL, Oracle Forms, and Web connections and
+interfaces.
+Education:
+2019 Doctor of Philosophy – Understanding People through Games
+Promoted by Prof. Dr. Panos Markopoulos from Eindhoven University of Technology, dissertation
+entitled: Understanding People through Games
+2004 Master of Science in Computer Science
+Supervised by Prof. Dr. Nuno Correia from New University of Lisbon, dissertation entitled:
+Contextual information support for Augmented environments
+2000 Software Engineer and Development (5 year) Degree
+from New University of Lisbon – Science and Technology Faculty
+Distinction award: Best Software Engineer Student
+Other Professional Training:
+62 hours BKE Examination Qualification. Training on the development and revision of educational
+assessment material and activities.
+236 hours BKO Teacher Qualification. Didactics training on the design, organization, and training of
+teaching material and activities.
+30 hours LEGO® SERIOUS PLAY® Facilitator. Facilitate workshops to support thinking, communication
+and problem solving within organisations, teams and individuals.
+80 hours RTCA 178B – Airborne Software Development and Certification. Training by Enea TekSci,
+about critical software systems, by the FAA (Federal American Aviation) standards.
+20 hours LynxOS 178B – Real Time Systems. Training course of development of real time applications,
+focus on non-stop systems, processing regulation and recovery policies.
+36 hours Team Management and Leadership. Participation on a Workshop in Chicago, over the topics
+of teamwork, leadership and motivation.
+
+-- 2 of 8 --
+
+Curriculum Vitae of Prof. Carlos Pereira Santos 3/8
+R&D Projects (with over 30 completed projects, covering only impactful & relevant):
+2025-2029 Principal Investigator of AVENUE (https:// avenuecove.eu/) Cove Eramus+ that developed five
+leading ecosystems across Europe to build stronger bridges between education, industry, and
+innovation in the creative visual sector.
+2026-2028 Principal Investigator of VPSN2 (https://vpstudionetwork.com/) - Virtual Production Studio
+Network (VPSN) 2.0 builds on VPSN initiative, expanding its scope to meet the evolving needs of
+Virtual Production education and industry practice. Funded by the Erasmus+ programme to
+advance accessible, industry-focused, and sustainable VP training for educators and students.
+2024-2027 Principal Investigator of KreativEU (https://kreativeu.org/) is a Funded European Alliance with
+long-term institutional, structural and strategic cooperation on Europe’s cultural heritage, Carlos is
+specifically co-leading the Work package on Sustainability of AI in the European context.
+2023-2025 Principal Investigator of VPSN (https://vpstudionetwork.com/) - Virtual Production Studio
+Network (VPSN) is a Erasmus+ project to support institutions to integrate VP in their programs,
+by developing open research, training and educational materials related to Virtual Production
+practices for educators and students.
+2024-2025 Principal Investigator of AICI (AI in the Creative Industry) an Erasmus European funding focusing
+on assess the opportunities and challenges of generative AI, and its implications for the Creative
+Digital Industry, and the development of a Generative Storyboard AI tool.
+2023-2024 Principal Investigator & Technical Coordinator of Procedural Ocean (https://cradle.buas.nl/) is
+financed by Horizon funding and is a pilot in automatic generating 3D environments in Unreal
+based on real geo-data concerning offshore energy, biology and environments, to aid the
+learning, policy- and decision-making process of planners and stakeholders of offshore areas.
+2021–2023 Project Manager of PlanV with Painting Practice, a professional tool to support film and television
+professionals to iterate on set design, cameras, lighting, and animation, reducing production costs
+while increasing efficiency, and used on His Dark Materials (BBC/HBO) and Wednesday (Netflix).
+2023 Technical Manager in "Bound to the Miraculous" (Bound to the Miraculous – cradle.buas.nl):
+Led the creation of a simulated ocean environment in Unreal Engine 5, inspired by Bas Jan Ader’s
+1975 voyage.
+2018 – 2023 Principal Investigator & Technical Manager in VIBE (VIBE – cradle.buas.nl) financed by European
+Union, OPZuid, Ministry of Economic Affairs, Province of Noord-Brabant, Municipality of Tilburg
+through a 7 million euro Regional Strategy and Innovation Grant, to develop highly realistic and
+engaging human face animated avatars based on 3D photogrammetry for medical education.
+2016-2019 Lead Researcher and Technical Manager in Maritime Spatial Planning Challenge Platform
+(https://www.mspchallenge.info/): a multi-awarded European and national funding serious game
+on Maritime Spatial Planning focused on international collaboration, using simulation based on real
+data, for the Clyde Estuary, Baltic Sea, North Sea, Adriatic Sea and Eastern Mediterranean.
+2017-2018 Project Manager in Smart City Hospitality - Scithos: European Horizon 2020 research and
+innovation program to develop a digitally augmented board game, to evaluate policies and key
+performance indicators of city tourism.
+2015 – 2018 Lead Researcher and Project Manager in GURaaS (https://guraas.cradle.buas.nl/): Web based
+player experience evaluation platform which allows researchers and developers to remotely collect
+and analyse in-game behaviour.
+2017 Project Manager in Dancer Awakens: First Augmented Reality short movie using the Hololens,
+show cased in the Go Short - International Short Film Festival of Nijmegen.
+2016 Lead Researcher and Project Manager in Green Bubbles Dive: Horizon 2020 project where an
+underwater Virtual Reality experience based on a real diving site was developed using
+photogrammetry.
+
+-- 3 of 8 --
+
+Curriculum Vitae of Prof. Carlos Pereira Santos 4/8
+Invited Public Speaking (with over 40 presenting only the most impactful & relevant)
+02 June 2026 Keynote at Logistics Community Brabant - AI Hub
+Topic: EU approach for AI
+14 Apr 2026 Invited Speaker at Virtual Productions Gathering 2026
+Topic: AI is making us work hard or work smart?
+20 Dec 2025 Invited Speaker Multatuli studentenprogramma 2025
+Topic: EU approach for AI
+25 Nov 2025 Panel on Sustainable Technological Futures in Education
+Topic: How Sustainability and AI impacting Cultural Heritage
+17 Nov 2025 Invited speaker at Avenue in Universidade Lusofona
+Topic: Games AI - luck, logic, and white lies
+29 Oct 2024 Panel Studium Generale: Deschooling Society in the Age of AI
+Topic: Deschooling Society in the Age of AI
+19 Sept 2024 Panel Mindlabs AI Symposium
+Topic: AI as a Research Assistant
+10 Sept 2024 BUas Open of Academic Year 2024: Innovation and Ethical Responsibility
+Topic: Responsible AI and Impacts
+18 June 2024 Invited Keynote at KreativEU Summit
+Topic: How Sustainability and AI impacting Cultural Heritage
+27 May 2024 Invited Keynote at Sustainable Tourism Mobility Forum
+Topic: Sustainable travel for film productions
+13 Nov 2023 Experience immersive rooms at educational institutions yourself | SURF.nl
+Topic: Virtual Productions - Behind the scenes
+25 Sept 2023 Invited Speaker at LevelUp
+Topic: Serious markets for serious games
+10 Aug 2023 Invited Speaker at Griffith University – Film School
+Topic: Virtual Productions - Behind the scenes
+6 Aug 2023 Visiting researcher at Griffith University Australia
+Topic: Participation on New York Counterpoint short film
+12 May 2023 Invited Speaker at Werktafel Digitale Zorg.
+Topic: Digital Humans and Serious Game Technology to help to train medical staff
+11 May 2023 Invited Speaker at AI Forward Forum and Google Developer
+Topic: AI and Sustainability in Creative Industries
+10 Mar 2023 Invited Speaker at Virtual Production Green Symposia
+Topic: AI and Sustainability of new technologies
+15 Dec 2022 Invited Speaker at Breda Game City Gathering
+Topic: Games & AI empowering development tools
+22 Nov 2022 Cross Media Café, Hilversum, Netherlands
+Topic: Educating Virtual Production Professionals
+8 Sep 2022 AI Mini-Summit, Breda, Netherlands
+Topic: Conversational AI
+14 Apr 2022 Invited Speaker at Virtual Productions Gathering 2022, Breda, Netherlands
+Topic: XR Lab - Start of the journey
+23 Mar 2018 Using games to enrich Maritime Spatial Planning, Texel, Netherlands
+Topic: Applied games and social responsibility
+22 Nov 2017 Old Sites New Media, Belmonte, Portugal
+Topic: New Media – Option to improve the Portugal sub-developed regions
+02 Apr 2016 Opportunities in Tourism: Inspiration from Serious games, Pernambuco, Brazil
+Topic: Designing Experiences
+
+-- 4 of 8 --
+
+Curriculum Vitae of Prof. Carlos Pereira Santos 5/8
+List of Publications:
+2026. (accepted) Carlos Pereira Santos, Phil de Groot, Jens Hagen, Wilco Boode, and Igor Mayer, Procedural Ocean:
+Design of Maritime Visualizations using Game Technology, IEEE Conference on Games, Madrid, Spain
+2026. (accepted) Melisa Atish, Carlos Pereira Santos, Carlos, Usability Evaluation of World Model Studio, 14th
+European Conference on Visual Information Processing (EUVIP 2026), Luxembourg
+2026. Fonseca, X.; Pereira Santos, C.; Hutchinson, K.; Hagen, J.; Groot, P.D.; Relouw, J.; Mayer, I. Immersive Ocean:
+A Virtual Twin for Participatory Decision Support in Maritime Spatial Planning. ISPRS Int. J. Geo-Inf. 2026, 15,
+323. https://doi.org/10.3390/ijgi15070323
+2026. Perera, T.-M., Hassreiter, S., Haggis-Burridge, M. & Pereira Santos, C., Avenue : European vocational
+excellence report 2026, Open access
+2026. Carlos Pereira Santos & Frans Melissen, Creating a mutually reinforcing relationship between
+ethical/sustainable AI and Europe’s cultural heritage, Whitepaper, Open access
+2026. Boode, W., Nemetsov, L., Santos, C.P. Mixed Reality Meets Marine Spatial Planning. in: tom Dieck, M.C.,
+Jung, T., Han, DI.D., Heller, J. (eds) XR and Metaverse. xr 2025. Springer Proceedings in Business and Economics.
+Springer, Cham. https://doi.org/10.1007/978-3-032-11983-4_7
+2025. Carlos Pereira Santos, C. & Frans Melissen, Shaping AI the European Way : BUas leads ethical and
+sustainable innovation in KreativEU, Uncover. 2025, 9, p. 26-27
+2025. Fonseca, X., Pereira Santos, C., Hutchinson, K., Relouw, J. & Mayer, I., Towards a virtual twin for the ocean:
+Technical performance and usability testing of the 'Immersive ocean platform'. OCEANS 2025 Brest, France
+2024. Igor Mayer, M.S. Van Gisbergen, M Haggis-Burridge, Carlos Pereira Santos Better Futures with Games and
+Immersive Media. Evaluation report 2018-2023 for the Research Assessment of R&D@AGM, Open access
+2023. Carlos Pereira Santos, Harald Warmelink, M Courchesne. Digital Twins of the ocean : autogenerated 3D
+environments for validating offshore wind farm operations. EventBUILD-IT 2023, Rome, Italy
+2023. Carlos Pereira Santos, Phil de Groot, Jens Hagen, A. Boudry, Igor Mayer. CUBE: Conversational User-Interface-
+Based Embodiment: developing a digital humans embodiment for conversational agents: design,
+implementation, and integration challenges. ACM International Conference on Intelligent Virtual Agents. - Würzburg,
+Germany (IVA '23)
+2023. A. Boudry, Joey Relouw, Alexander van Buggenum, Carlos Pereira Santos, Igor Mayer. Portraying emotions on
+digital humans through emotive colour maps. ACM International Conference on Intelligent Virtual Agents. -
+Würzburg, Germany (IVA '23)
+2023. Carlos Pereira Santos, Joey Relouw, Kevin Hutchinson, Alexander Buggenum, Agathe Boudry, Annemarie Fransen,
+Myrthe van der Ven, Igor Mayer. Embodied Agents for Obstetric Simulation Training. ACM Intelligent User Interfaces
+(IUI 2023)
+2022. Luca Quartesan, Carlos Pereira Santos. Neural Bidirectional Texture Function Compression and Rendering.
+SIGGRAPH Asia 2022
+2021. Joey Relouw, M.S. Van Gisbergen, Carlos Pereira Santos. Recognition of facial expressions in VR: an
+experiment of still photos versus 3D computer graphic images. 6th International AR VR Conference
+2020. Carlos Pereira Santos, Harald Warmelink, Wilco Boode, Phil de Groot, Kevin Hutchinson, Magali Gonçalves, Jeroen
+Steenbeek, & Igor Mayer. A Digital Game-Based Simulation Platform for Integrated Marine Spatial Planning:
+Design Challenges and Technical Innovations. The Journal of Ocean Technology, 15(2), 78-100.
+2019. Carlos Pereira Santos. Understanding People through Games (PhD Thesis) Eindhoven University of Technology
+Library. ISBN: 978-90-386-4791-3.
+2019. Phil de Groot, Wilco Boode, Carlos Pereira Santos, Harald Warmelink, Igor Mayer. A Shipping Simulation
+Through Pathfinding: SEL within the MSP Challenge Simulation Platform. 20th annual European GAME-ON®
+Conference (GAME-ON®’2019) on Simulation and AI in Computer Games.
+2019. Carlos Pereira Santos, Niels van Gaans, Vassilis-Javed Khan, Panos Markopoulos. Effects of advertisements and
+questionnaire interruptions on the player experience. IEEE Conference On Games 2019, UK
+2019. Magali Goncalves, Jeroen Steenbeek, Maciej Tomczak, Giovanni Romagnoni, Rikka Puntilla, Ville Karvinen, Carlos
+Pereira Santos, Xander Keijser, Lodewijk Abspoel, Harald Warmelink, Igor Mayer. Food-web modeling in the Maritime
+Spatial Planning Challenge Simulation Platform: Results from the Baltic Sea Region. International Simulation
+and Gaming Association. (ISAGA 2019), Warsaw, Poland.
+
+-- 5 of 8 --
+
+Curriculum Vitae of Prof. Carlos Pereira Santos 6/8
+List of Publications (continuation):
+2019. Jessika Weber-Sabil, Lidija Lalicic, Thomas Buijtenweg, Kevin Hutchinson, Carlos Pereira Santos, Melissen Frans,
+Ko Koens and Igor Mayer. Managing Competing Values in Sustainable Urban Tourism: a Simulation-Gaming
+Approach. International Simulation and Gaming Association. (ISAGA 2019), Warsaw, Poland.
+2019. Jeroen Steenbeek, Giovanni Romagnoni, Jacob Bentley, Johanna Jacomina Heymans, Natalia Serpetti, Magali
+Gonçalves, Carlos Pereira Santos, Harald Warmelink, Igor Mayer, Xander Keijser, Rhona Fairgrieve and Lodewijk Abspoel.
+Combining ecosystem modelling and serious gaming to aid transnational management of marine space.
+Managing local and global fisheries. in Ecology and Society Journal
+2019. Carlos Pereira Santos, Kevin Hutchinson, Vassilis-Javed Khan, Panos Markopoulos. Profiling Personality Traits
+with Games. ACM Transactions on Interactive Intelligent Systems Journal (TiiS), Volume 9 Issue 2-3, Article No.: 11,
+March 2019, ACM New York, NY, USA. ISSN:2160-6455 EISSN:2160-6463, doi: 10.1145/3230738
+2018. Carlos Pereira Santos, Vassilis-Javed Khan & Panos Markopoulos. Profiling ethics orientation through play.
+Behaviour & Information Technology Volume 37, 2018 - Issue 9: Highlights from ECCE 2018, September 2018
+2018. Carlos Pereira Santos, Vassilis-Javed Khan, Panos Markopoulos. Interactive Narratives for Profiling Ethics
+Orientation. 36th European Conference on Cognitive Ergonomics (ECCE 2018), September 2018, the Netherlands
+2018. Marnix Van Gisbergen, Hans Lodders, Carlos Pereira Santos, Dennis Hoogervorst. How AR visualisation can
+help us understand data. Data Driven Digital Marketing Event (DDME2018), 2018, Huizen, Netherlands.
+2018. Kevin Hutchinson, Harald Warmelink, Wilco Boode, Carlos Pereira Santos, Igor Mayer. An Offshore Energy
+Simulation through Flow Networks: CEL within the MSP Challenge 2050 Simulation Game Platform. European
+Simulation and Modelling Conference (ESM 2018), October 2018, Belgium
+2017. Carlos Pereira Santos, Jeroen van de Haterd, Kevin Hutchinson, Vassilis-Javed Khan, Panos Markopoulos. GURaaS:
+An End-User Platform for Embedding Research Instruments into Games. 6th International Symposium on End
+User Development (IS-EUD 2017), the Netherlands
+2017. Carlos Pereira Santos, Kevin Hutchinson, Vassilis-Javed Khan, Panos Markopoulos. Measuring Self-Esteem with
+Games. ACM Intelligent User Interfaces (IUI 2017), March 2017, Cyprus
+2017. Licia Calvi, Carlos Santos, Joey Relouw, Bojan Endrovski, Serena Lucrezi, Antonio Sarà, Ubaldo Pantaleo. A VR
+game to teach underwater sustainability. The Fifth IFIP Conference on Sustainable Internet and ICT for Sustainability
+(SustainIT 2017), December 2017, Madeira, Portugal.
+2017. Licia Calvi, Carlos Pereira Santos, Serena Lucrezi, Antonio Sarà, Joey Relouw, Bojan Endrovski, Chris Rothwell,
+Marco Palma, Ubaldo Pantaleo. Can a VR game increase awareness in a sustainable marine behaviour? European
+Marine Science Eductors Association Conference (ESMEA 2017), October 2017, Valletta, Malta.
+2016. Carlos Pereira Santos, Vassilis-Javed Khan, Panos Markopoulos. Game User Research as a Service. ACM CHI
+Conference on Human Factors in Computing Systems 2016 Workshop (CHI 2016): Lightweight Games User Research for
+Indies and Non-Profit Organizations, May 2016, USA
+2016. Carlos Pereira Santos, Vassilis-Javed Khan, Panos Markopoulos. Inferring A Player’s Need For Cognition From
+Hints. ACM Intelligent User Interfaces (IUI 2016), March 2016, USA
+2016. Erwin Peters, Bram Heijligers, Josse de Kievith, Xavier Razafindrakoto, Ruben Van Oosterhout, Carlos Pereira
+Santos, Igor Mayer, Max M Louwerse. Design for Collaboration in Mixed Reality Technical Challenges and
+Solutions. 8th International Conference on Virtual Worlds and Games for Serious Applications (VS-games 2016),
+November 2016, Spain
+2014. Carlos Pereira Santos, Vassilis-Javed Khan, Panos Markopoulos. On Utilizing Player Models to Predict Behavior
+in Crowdsourcing Tasks. International Conference on Social Informatics (SocInfo 2014), November 2014, Spain
+2014. Giuseppe Maggiore, Carlos Santos, Aske Plaat. Smarter smartphones: understanding and predicting user
+habits from GPS sensor data. Procedia Computer Science Volume 34, 2014
+2013. Giuseppe Maggiore, Carlos Santos, Dino Dini, Frank Peters, Hans Bouwknegt, Pieter Spronck. LGOAP: adaptive
+layered planning for real-time videogames. IEEE Conference on Computational Intelligence in Games (CIG2013),
+August 2013, Canada
+2005. José Danado, Eduardo Dias, Teresa Romão, Nuno Correia, Adelaide Trabuco, Carlos Santos, João Serpa, Manuel
+Costa, António Câmara. Mobile Environmental Visualization. The Cartographic Journal Vol. 42 No. 1, June 2005
+2004. Teresa Romão, Nuno Correia, Eduardo Dias, Jose Danado, Adelaide Trabuco, Carlos Santos, Rossana Santos,
+Antonio Camara, Edmundo Nobre. ANTS - Augmented Environments. Computers & Graphics, Special Issue on
+Pervasive Computing and Ambient Intelligence - Mobility, Ubiquity and Wearables Get Together, October 2004
+
+-- 6 of 8 --
+
+Curriculum Vitae of Prof. Carlos Pereira Santos 7/8
+List of Publications (continuation):
+2004. Miguel Boavida, Anacleto Correia, Susana Cabaço, Adelaide Trabuco, Carlos Santos and Jorge Pereiros. Tools for
+Experiential Learning: The “E2-LEARNING” Approach. International Conference on Education (IADAT-e2004)
+Volume: IADAT-e Technological Issues, July 2004, Spain
+2004. José Danado, Eduardo Dias, Teresa Romão, Nuno Correia, Adelaide Trabuco, Carlos Santos, João Serpa, Manuel
+Costa, António Câmara. A Multi-user mobile system to visualize environmental processes. Proceedings of the 12th
+International conference on Geoinformatics-Geospatial Information Research: Bridging the Pacific and Atlantic, June 2004,
+Sweden
+2003. José Danado, Eduardo Dias, Teresa Romão, Nuno Correia, Adelaide Trabuco, Carlos Santos, David Araújo, Pedro
+Duarte, Rui Rebocho, José Palmeiro, João Serpa, Manuel Costa, António Câmara. Mobile Augmented Reality for
+Environmental Management (MARE). Eurographics 2003 (EG’03), September 2003, Spain
+2003. Carlos Santos, Nuno Correia. A Navigation and Registration System for Mobile and Augmented
+Environments. Workshop on the Design Specification and Verification of Interactive Systems (DSV-IS 2003), June 2003,
+Portugal.
+2003. Miguel Boavida, Rossana Santos, Carlos Pereira Santos, Nuno Correia. A Framework for Shared and
+Personalized Video Based Documents. The Twelfth International World Wide Web Conference (WWW 2003 Posters),
+May 2003, Hungary
+2003. Nuno Correia, Teresa Romao, Carlos Santos, Adelaide Trabuco, Rossana Santos, Luis Romero, Jose Danado,
+Eduardo Dias, Antonio Camara, Edmundo Nobre. A Flexible Augmented Reality Architecture Applied to
+Environmental Management, SPIE Electronic Imaging, January 2003, USA
+2002. Teresa Romão, Eduardo Dias, José Danado, Nuno Correia, Adelaide Trabuco, Carlos Santos, Rossana Santos,
+Edmundo Nobre, António Câmara, Luís Romero. Augmenting Reality with Geo-Referenced Information for
+Environmental Management. Proceedings of the 10th ACM international symposium on Advances in geographic
+information systems (GIS’02), November 2002, USA
+Supervision of PhD and Professional Doctorate
+Since 2024. Wilco Boode (ongoing). Daily supervisor of PhD with Eindhoven University of Technology, Netherlands
+Topic: Design of shared Mixed Reality experiences
+Since 2024. Jonas Pastor (ongoing). External advisor of Professional Doctorate with BUas, Netherlands
+Topic: Design of shared Mixed Reality experiences
+Supervision of Master Thesis
+2023. Dana van der Wal. Master Game Technology. Thesis entitled:
+From Pixels to Partners: Enhancing Digital Pet Interaction through Adaptive Learning
+2022. Luca Quartesan. Master Game Technology. Thesis entitled:
+Neural Bidirectional Texture Function Compression and Rendering
+2021. Andrei-Ion Oniţa. Master Game Technology. Thesis entitled:
+How do players relate the number of training steps with the skill of a ML NPC agent?
+2021. Jens Hagen. Master Game Technology. Thesis entitled:
+Agent Participation in First Person Shooter Games using Reinforcement Learning and Behaviour Cloning
+2021. Dyon Kreffer. Master Game Technology. Thesis entitled:
+Reinforcement learning for non-player characters in the video game industry
+2020. Thomas Goussaert. Master Game Technology. Thesis entitled:
+DNIK – Data Driven Full Body Inverse Kinematics for Virtual Reality
+2019. Heleen van Geelen. Master Media Innovation. Thesis entitled:
+The Video Game Industry: Qualitative Insights in Player Experience Evaluation and Data Collection.
+2019. Niels van Gaans. Master Media Innovation. Thesis entitled:
+The effect of cognitive load demanded by in-game questionnaires on game experience
+2018. Julie Jurgens. Master Media Innovation. Thesis entitled:
+Home Interior goes 360 The contribution of a 360-degree Social Network Services to home interior design
+2018. Yonathan Klijnsma: Master Game Technology. Thesis entitled:
+An anti-cheat protection engine for Windows based games
+
+-- 7 of 8 --
+
+Curriculum Vitae of Prof. Carlos Pereira Santos 8/8
+Supervision of Master Thesis (continuation)
+2017. Hans Lodders. Master Media Innovation. Thesis entitled:
+How Augmented Reality supports Media Strategies by improving brand segmentation through 3D data visualization
+2017. Nan Chen. Master Media Innovation. Thesis entitled:
+Virtual Reality enabled shopping and the business potential: A case study
+2017. Hicham Filali. Master Media Innovation. Thesis entitled:
+Most important features influencing the mobile retail shopping experience
+2017. Jordy Ruiter. Master Game Technology. Thesis entitled:
+Project Kubed: Maintaining online platforms using cloud container systems for continuous integrations and deployment.
+2016. Kevin Hutchinson. Master Game Technology. Thesis entitled:
+Modelling player self-esteem from in-game behavior.
+2016. Bart van der Kruys. Master Game Technology. Thesis entitled:
+Utility AI: An Autonomous AI Tool
+2016. Ajay Ramautar. Master Game Technology. Thesis entitled:
+Hybrid / combined behaviour system in games
+2016. Danny A. Francken. Master Media Innovation. Thesis entitled:
+RSPND: Connect Digital to Physical; let the products inform you.
+2015. Pieter Vader. Master Media Innovation. Thesis entitled:
+Desktop or Head Mounted Displays: The role of the displayed environment in the effect on Presence, Engagement,
+Naturalness and Visit Intention in a virtual museum
+2015. Vincent Zuidema. Master Media Innovation. Thesis entitled:
+WeBoat: Opportunities for peer to peer boat sharing
+2015. Yvonne Kolen. Master Media Innovation. Thesis entitled:
+Interactive Digital Narratives and the Narrative Paradox: A user modeling approach to reduce the narrative paradox.
+2014. Kenny Wood. Master Media Innovation. Thesis entitled:
+Exploring User Acceptance of Virtual Reality Technologies to Visualize indoor event venue floorplan layouts.
+2014. Megan Wang. Master Media Innovation. Thesis entitled:
+The context aware connecting students through social media and games
+2013. Matt Merry. Master Media Innovation. Thesis entitled:
+Public Acceptance of Digital Flyer systems
+2012. Pieter Wels. Master Media Innovation. Thesis entitled:
+Design for Design: Playful Creation Processes to improve 3d Print Product Design
+Supervision Graduations Projects (only recent ones)
+2026. Jonathan van Santen (ongoing). Applied Data Science and Artificial Intelligence. Bachelor graduation project:
+HEIMDALL – Human-centric Ethical Intelligence Monitoring Data Access and Legal Languages
+2026. Melisa Atish. Creative Technologies and Artificial Intelligence (Howest, Belgium). Bachelor graduation project:
+DREAMWORLD - Dynamic Rendering EnAbled Models World
+2025. Andrea Tosheva. Applied Data Science and Artificial Intelligence. Bachelor graduation project:
+Sentiment analysis of based transcription text of qualitative research interviews
+2025. Hidde Derks. Creative Media and Gamer Technologies. Bachelor graduation project:
+Continuous integration and automatic deployment tools for games
+2024. Bas Walhout. Creative Media and Gamer Technologies. Bachelor graduation project:
+Energy consumption monitoring and control of XR Stage
+2023. Merlijn van der Kamp. Creative Media and Gamer Technologies. Bachelor graduation project:
+Web-marbles: a low-maintenance-cost open source multiplayer game using 3D web technologies
+2023. Tuan Le. Creative Media and Gamer Technologies. Bachelor graduation project:
+Tools Programming for Player versus Player mobile game slot heroes: case study.
+2022. Michiel Pater. Creative Media and Gamer Technologies. Bachelor graduation project:
+Network platform to support real time multiplayer mobile games
+
+-- 8 of 8 --
+
