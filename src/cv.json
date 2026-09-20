@@ -1,0 +1,115 @@
+{
+ "highlights": [
+  {
+   "index": "01",
+   "name": "Procedural Ocean",
+   "years": "2023–2024",
+   "desc": "Led Horizon Europe project generating AI-driven 3D offshore environments based on GIS data for energy planning and decision-making.",
+   "published": "BUILD-IT 2023 · COG 2026"
+  },
+  {
+   "index": "02",
+   "name": "PlanV",
+   "years": "2021–2023",
+   "desc": "Virtual Productions applied research (w/ Painting Practice) using VR pre-visualisation built on Unreal Engine, enabling film and television production professionals to iterate on set design, cameras, lighting, and animation in real time.",
+   "published": "His Dark Materials (BBC/HBO) · Wednesday (Netflix)"
+  },
+  {
+   "index": "03",
+   "name": "VIBE",
+   "years": "2018–2023",
+   "desc": "Led project developing photogrammetry-based digital human avatars and embodied conversational agents for medical simulation training.",
+   "published": "ACM IVA 2023 · ACM IUI 2023"
+  },
+  {
+   "index": "04",
+   "name": "MSP Challenge",
+   "years": "2016–2019",
+   "desc": "Co-developed multi-awarded serious game platform for Marine Spatial Planning across five international seas.",
+   "published": "Journal of Ocean Technology · Ecology & Society"
+  }
+ ],
+ "positions": [
+  {
+   "years": "Since 2025",
+   "title": "Professor Applied Data Science and Artificial Intelligence",
+   "org": "Breda University of Applied Sciences"
+  },
+  {
+   "years": "2015 — 2025",
+   "title": "Cradle Research Lab Coordinator & Lead Researcher",
+   "org": "Breda University of Applied Sciences"
+  },
+  {
+   "years": "2009 — 2015",
+   "title": "Senior Lecturer",
+   "org": "Breda University of Applied Sciences"
+  },
+  {
+   "years": "2001 — 2009",
+   "title": "Technical Director: Aeronautics, Security and Defence",
+   "org": "GMV / Skysoft Portugal, SA"
+  },
+  {
+   "years": "2001 — 2003",
+   "title": "Teaching Assistant, Department of System and Informatics",
+   "org": "Setúbal Polytechnic University of Technology"
+  },
+  {
+   "years": "1998 — 2000",
+   "title": "Junior Teaching Assistant, Department of Informatics",
+   "org": "New University of Lisbon"
+  }
+ ],
+ "education": [
+  {
+   "year": "2019",
+   "title": "Doctor of Philosophy — Understanding People through Games",
+   "detail": "Eindhoven University of Technology, promoted by Prof. Dr. Panos Markopoulos"
+  },
+  {
+   "year": "2004",
+   "title": "Master of Science in Computer Science",
+   "detail": "New University of Lisbon — Contextual information support for Augmented environments, supervised by Prof. Dr. Nuno Correia"
+  },
+  {
+   "year": "2000",
+   "title": "Software Engineer and Development (5 year) Degree",
+   "detail": "New University of Lisbon — distinction award: Best Software Engineer Student"
+  }
+ ],
+ "labs": [
+  "AI Makerspace",
+  "XR Stage (Virtual Production Studio)",
+  "XR Lab",
+  "Motion Capture Studio",
+  "Photogrammetry Studio"
+ ],
+ "stats": [
+  {
+   "prefix": "",
+   "num": 46,
+   "suffix": "+",
+   "label": "Peer-reviewed publications",
+   "fromPubCount": true
+  },
+  {
+   "prefix": "",
+   "num": 30,
+   "suffix": "+",
+   "label": "Completed R&D projects"
+  },
+  {
+   "prefix": "",
+   "num": 25,
+   "suffix": "",
+   "label": "Researchers led at Cradle"
+  },
+  {
+   "prefix": "€",
+   "num": 7,
+   "suffix": "M",
+   "label": "Largest grant (VIBE)"
+  }
+ ]
+}

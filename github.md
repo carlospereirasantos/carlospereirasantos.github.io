@@ -13,9 +13,9 @@ date: 2026-09-13T00:00:00Z
 ## Screen map
 | Screen | Built from |
 | --- | --- |
-| index.html | uploads/CV_CS_en_2026-07-29-Full.pdf, uploads/CV_CS_2026-06-01_Biographical_Sketch.pdf |
-| publications.html | src/cv-data.json, src/cv.ts |
-| projects.html | src/cv-data.json, src/cv.ts |
+| index.html | src/cv.json, src/publications.json (uploaded CV PDFs in uploads/) |
+| publications.html | src/publications.json, src/cv.ts |
+| projects.html | src/projects.json, src/cv.ts |
 
 ## 2026-09-13 — rename + cleanup
 - Pages renamed to plain lowercase `.html`; `Home.dc.html` is now `index.html`
@@ -26,3 +26,12 @@ date: 2026-09-13T00:00:00Z
   (`2026_vpgathering-*.jpg`, `vpsn2-1-*.png`, `avenue_logo_rgb-*.png`, ~7 MB).
   The live Projects page sources its images from `.image-slots.state.json`.
 - `.gitignore` replaced with a version relevant to a static site.
+
+## 2026-09-20 — data split
+- `src/cv-data.json` split into `src/publications.json` (46), `src/projects.json` (14)
+  and `src/cv.json`, so each content type is maintained on its own.
+- `src/cv.json` also absorbs the profile content that was hardcoded in `index.html`'s
+  `renderVals()`: highlights, positions, education, labs and stats.
+- `src/cv.ts` / `cv.js` gained `loadPublications()`, `loadProjects()` and `loadCv()`;
+  each page now fetches only the file it needs. `loadCvData()` still loads all three
+  in parallel and now returns `{ publications, projects, cv }`.

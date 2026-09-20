@@ -1,0 +1,35 @@
+{
+  // Starts a plain static file server for the site. The pages fetch their
+  // JSON over HTTP and load ES modules, so opening index.html from disk
+  // (file://) fails on CORS — it has to be served.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "serve site",
+      "detail": "Static server on http://localhost:8080",
+      "type": "shell",
+      "command": "node",
+      "args": [".vscode/serve.mjs", "-p", "8080"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "presentation": { "reveal": "silent", "panel": "dedicated" },
+      "problemMatcher": {
+        "pattern": [{ "regexp": "^$", "file": 1, "location": 2, "message": 3 }],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*$",
+          "endsPattern": "Serving HTTP"
+        }
+      }
+    },
+    {
+      "label": "stop serving",
+      "detail": "Stops the static server started by 'serve site'",
+      "type": "shell",
+      "command": "echo",
+      "args": ["server stopped with the debug session"],
+      "presentation": { "reveal": "never", "panel": "dedicated" },
+      "problemMatcher": []
+    }
+  ]
+}

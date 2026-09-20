@@ -48,11 +48,60 @@ export interface Project {
   url?: string;
   desc: string;
   tp: Topic[];
+  /** Logo path, omitted when the project has no logo file */
+  logo?: string;
+  /** Project photo path, omitted when the project has no photo file */
+  image?: string;
+  /** Image-slot id, kept as the naming key for files under images/projects/ */
+  slot: string;
+  /** Where the source asset lives on the Cradle marketing drive */
+  media?: string;
+}
+
+export interface Highlight {
+  /** Display ordinal, e.g. "01" */
+  index: string;
+  name: string;
+  years: string;
+  desc: string;
+  /** Where the work appeared */
+  published: string;
+}
+
+export interface Position {
+  years: string;
+  title: string;
+  org: string;
+}
+
+export interface Degree {
+  year: string;
+  title: string;
+  detail: string;
+}
+
+export interface Stat {
+  prefix: string;
+  num: number;
+  suffix: string;
+  label: string;
+  /** Use the live publication count in place of `num` */
+  fromPubCount?: boolean;
+}
+
+/** Contents of `cv.json` — the profile content that is neither a publication nor a project. */
+export interface Cv {
+  highlights: Highlight[];
+  positions: Position[];
+  education: Degree[];
+  labs: string[];
+  stats: Stat[];
 }
 
 export interface CvData {
   publications: Publication[];
   projects: Project[];
+  cv: Cv;
 }
 
 export interface Filters {
@@ -74,10 +123,38 @@ export const KIND_LABELS: Record<PublicationKind, string> = {
 
 export const EMPTY_FILTERS: Filters = { year: null, kind: null, topic: null };
 
-export async function loadCvData(url = 'src/cv-data.json'): Promise<CvData> {
+async function loadJson<T>(url: string): Promise<T> {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Failed to load ${url}: ${res.status}`);
-  return (await res.json()) as CvData;
+  return (await res.json()) as T;
+}
+
+/** The publication list. */
+export function loadPublications(url = 'src/publications.json'): Promise<Publication[]> {
+  return loadJson<Publication[]>(url);
+}
+
+/** The project list. */
+export function loadProjects(url = 'src/projects.json'): Promise<Project[]> {
+  return loadJson<Project[]>(url);
+}
+
+/** Positions, education, labs and the rest of the profile. */
+export function loadCv(url = 'src/cv.json'): Promise<Cv> {
+  return loadJson<Cv>(url);
+}
+
+/**
+ * All three data files, fetched in parallel. A page that needs only one list
+ * should call the single loader for it instead.
+ */
+export async function loadCvData(base = 'src'): Promise<CvData> {
+  const [publications, projects, cv] = await Promise.all([
+    loadPublications(`${base}/publications.json`),
+    loadProjects(`${base}/projects.json`),
+    loadCv(`${base}/cv.json`),
+  ]);
+  return { publications, projects, cv };
 }
 
 /** Descending list of every year that has at least one publication. */

@@ -1,0 +1,9 @@
+{
+  "name": "carlospereirasantos-com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal site. Static HTML with no build step; these scripts only serve it for local testing.",
+  "scripts": {
+    "start": "node .vscode/serve.mjs"
+  }
+}

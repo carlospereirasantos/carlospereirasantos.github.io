@@ -1,0 +1,215 @@
+[
+ {
+  "name": "AVENUE",
+  "full": "European ecosystems for Audiovisual Education and Training Network for European Vocational Excellence",
+  "years": "2025–2029",
+  "role": "Principal Investigator",
+  "funder": "Erasmus+",
+  "url": "https://avenuecove.eu/",
+  "desc": "Developed five leading ecosystems across Europe to build stronger bridges between education, industry, and innovation in the creative visual sector.",
+  "tp": [
+   "XR & Virtual Production"
+  ],
+  "logo": "images/projects/logo-proj-avenue.webp",
+  "image": "images/projects/proj-avenue.webp",
+  "slot": "proj-avenue",
+  "media": "Avenue"
+ },
+ {
+  "name": "VPSN2",
+  "full": "Virtual Production Studio Network 2.0",
+  "years": "2026–2028",
+  "role": "Principal Investigator",
+  "funder": "Erasmus+",
+  "url": "https://vpstudionetwork.com/",
+  "desc": "Builds on the VPSN initiative, expanding its scope to meet the evolving needs of Virtual Production education and industry practice. Funded by the Erasmus+ programme to advance accessible, industry-focused, and sustainable VP training for educators and students.",
+  "tp": [
+   "XR & Virtual Production"
+  ],
+  "logo": "images/projects/logo-proj-vpsn2.webp",
+  "image": "images/projects/proj-vpsn2.webp",
+  "slot": "proj-vpsn2",
+  "media": "VPSN 2"
+ },
+ {
+  "name": "KreativEU",
+  "full": "Long-term institutional, structural and strategic cooperation on Europe's cultural heritage",
+  "years": "2024–2027",
+  "role": "Work Package Leader",
+  "funder": "European Alliance",
+  "url": "https://kreativeu.org/",
+  "desc": "A funded European Alliance on Europe's cultural heritage. Carlos co-leads the work package on Sustainability of AI in the European context, across an alliance of 11 European universities.",
+  "tp": [
+   "Applied AI"
+  ],
+  "logo": "images/projects/logo-proj-kreativeu.webp",
+  "slot": "proj-kreativeu",
+  "media": null
+ },
+ {
+  "name": "VPSN",
+  "full": "Virtual Production Studio Network",
+  "years": "2023–2026",
+  "role": "Principal Investigator",
+  "funder": "Erasmus+",
+  "url": "https://vpstudionetwork.com/",
+  "desc": "An Erasmus+ project supporting institutions to integrate Virtual Production in their programmes, by developing open research, training and educational materials related to VP practices for educators and students.",
+  "tp": [
+   "XR & Virtual Production"
+  ],
+  "logo": "images/projects/logo-proj-vpsn.webp",
+  "image": "images/projects/proj-vpsn.webp",
+  "slot": "proj-vpsn",
+  "media": "VPSN"
+ },
+ {
+  "name": "AICI",
+  "full": "AI in the Creative Industry",
+  "years": "2024–2025",
+  "role": "Principal Investigator",
+  "funder": "Erasmus+",
+  "desc": "Assessing the opportunities and challenges of generative AI and its implications for the Creative Digital Industry, including the development of a Generative Storyboard AI tool.",
+  "tp": [
+   "Applied AI"
+  ],
+  "logo": "images/projects/logo-proj-aici.webp",
+  "image": "images/projects/proj-aici.webp",
+  "slot": "proj-aici",
+  "media": "AICI"
+ },
+ {
+  "name": "Procedural Ocean",
+  "full": "Auto-generated 3D environments for offshore energy planning and decision-making",
+  "years": "2023–2024",
+  "role": "Principal Investigator & Technical Coordinator",
+  "funder": "Horizon (Illiad)",
+  "url": "https://cradle.buas.nl/",
+  "desc": "A pilot in automatically generating 3D environments in Unreal based on real geo-data concerning offshore energy, biology and environments, to aid the learning, policy- and decision-making process of planners and stakeholders of offshore areas.",
+  "tp": [
+   "Maritime Spatial Planning",
+   "Game Technology"
+  ],
+  "logo": "images/projects/logo-proj-procedural-ocean.webp",
+  "image": "images/projects/proj-procedural-ocean.webp",
+  "slot": "proj-procedural-ocean",
+  "media": "Iliad - GEOV"
+ },
+ {
+  "name": "PlanV",
+  "full": "Virtual production pre-visualisation with Painting Practice",
+  "years": "2021–2023",
+  "role": "Project Manager",
+  "funder": "Industry",
+  "desc": "A professional tool to support film and television professionals to iterate on set design, cameras, lighting, and animation, reducing production costs while increasing efficiency. Used on His Dark Materials (BBC/HBO) and Wednesday (Netflix).",
+  "tp": [
+   "XR & Virtual Production"
+  ],
+  "slot": "proj-planv",
+  "media": "VP"
+ },
+ {
+  "name": "Bound to the Miraculous",
+  "full": "Simulated ocean environment in Unreal Engine 5",
+  "years": "2023",
+  "role": "Technical Manager",
+  "funder": "—",
+  "desc": "Led the creation of a simulated ocean environment in Unreal Engine 5, inspired by Bas Jan Ader's 1975 voyage.",
+  "tp": [
+   "Game Technology"
+  ],
+  "slot": "proj-bound-to-the-miraculous",
+  "media": "Bound to the Miraculous"
+ },
+ {
+  "name": "VIBE",
+  "full": "Realistic animated face avatars based on 3D photogrammetry for medical education",
+  "years": "2018–2023",
+  "role": "Principal Investigator & Technical Manager",
+  "funder": "OPZuid / Regional — €7M",
+  "desc": "Financed by the European Union, OPZuid, Ministry of Economic Affairs, Province of Noord-Brabant and Municipality of Tilburg through a 7 million euro Regional Strategy and Innovation Grant, to develop highly realistic and engaging animated human face avatars based on 3D photogrammetry for medical education.",
+  "tp": [
+   "Digital Humans",
+   "Applied AI"
+  ],
+  "image": "images/projects/proj-vibe.webp",
+  "slot": "proj-vibe",
+  "media": "VIBE"
+ },
+ {
+  "name": "MSP Challenge",
+  "full": "Maritime Spatial Planning Challenge Platform",
+  "years": "2016–2019",
+  "role": "Lead Researcher & Technical Manager",
+  "funder": "Horizon Europe",
+  "url": "https://www.mspchallenge.info/",
+  "desc": "A multi-awarded European and national funded serious game on Maritime Spatial Planning focused on international collaboration, using simulation based on real data, for the Clyde Estuary, Baltic Sea, North Sea, Adriatic Sea and Eastern Mediterranean.",
+  "tp": [
+   "Maritime Spatial Planning",
+   "Game Technology"
+  ],
+  "logo": "images/projects/logo-proj-msp-challenge.webp",
+  "image": "images/projects/proj-msp-challenge.webp",
+  "slot": "proj-msp-challenge",
+  "media": "MSP Challenge"
+ },
+ {
+  "name": "Smart City Hospitality",
+  "full": "Scithos",
+  "years": "2017–2018",
+  "role": "Project Manager",
+  "funder": "Horizon 2020",
+  "desc": "A European Horizon 2020 research and innovation programme to develop a digitally augmented board game, to evaluate policies and key performance indicators of city tourism.",
+  "tp": [
+   "Game Technology"
+  ],
+  "logo": "images/projects/logo-proj-smart-city-hospitality.webp",
+  "image": "images/projects/proj-smart-city-hospitality.webp",
+  "slot": "proj-smart-city-hospitality",
+  "media": "Scithos"
+ },
+ {
+  "name": "GURaaS",
+  "full": "Game User Research as a Service",
+  "years": "2015–2018",
+  "role": "Lead Researcher & Project Manager",
+  "funder": "Regional",
+  "url": "https://guraas.cradle.buas.nl/",
+  "desc": "A web-based player experience evaluation platform which allows researchers and developers to remotely collect and analyse in-game behaviour.",
+  "tp": [
+   "Player Modelling",
+   "Game Technology"
+  ],
+  "slot": "proj-guraas",
+  "media": null
+ },
+ {
+  "name": "Dancer Awakens",
+  "full": "First Augmented Reality short movie using the HoloLens",
+  "years": "2017",
+  "role": "Project Manager",
+  "funder": "—",
+  "desc": "Showcased at Go Short — International Short Film Festival of Nijmegen.",
+  "tp": [
+   "Augmented Reality",
+   "XR & Virtual Production"
+  ],
+  "slot": "proj-dancer-awakens",
+  "media": "The Dancer Awakens"
+ },
+ {
+  "name": "Green Bubbles Dive",
+  "full": "Underwater Virtual Reality experience based on a real diving site",
+  "years": "2016",
+  "role": "Lead Researcher & Project Manager",
+  "funder": "Horizon 2020",
+  "desc": "A Horizon 2020 project where an underwater Virtual Reality experience based on a real diving site was developed using photogrammetry.",
+  "tp": [
+   "XR & Virtual Production",
+   "Maritime Spatial Planning"
+  ],
+  "logo": "images/projects/logo-proj-green-bubbles-dive.webp",
+  "image": "images/projects/proj-green-bubbles-dive.webp",
+  "slot": "proj-green-bubbles-dive",
+  "media": "Green Bubbles Dive"
+ }
+]

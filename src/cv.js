@@ -10,10 +10,31 @@ export const KIND_LABELS = {
 
 export const EMPTY_FILTERS = { year: null, kind: null, topic: null };
 
-export async function loadCvData(url = 'src/cv-data.json') {
+async function loadJson(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Failed to load ${url}: ${res.status}`);
   return await res.json();
+}
+
+export function loadPublications(url = 'src/publications.json') {
+  return loadJson(url);
+}
+
+export function loadProjects(url = 'src/projects.json') {
+  return loadJson(url);
+}
+
+export function loadCv(url = 'src/cv.json') {
+  return loadJson(url);
+}
+
+export async function loadCvData(base = 'src') {
+  const [publications, projects, cv] = await Promise.all([
+    loadPublications(`${base}/publications.json`),
+    loadProjects(`${base}/projects.json`),
+    loadCv(`${base}/cv.json`),
+  ]);
+  return { publications, projects, cv };
 }
 
 export function years(pubs) {

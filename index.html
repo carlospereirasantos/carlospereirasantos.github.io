@@ -46,7 +46,6 @@
     </helmet>
 
     <div style="max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,48px) 0">
-
       <nav
         style="display:flex;align-items:baseline;gap:var(--space-6);padding:var(--space-6) 0 var(--space-4);border-bottom:2px solid var(--color-divider);flex-wrap:wrap">
         <a href="index.html"
@@ -76,8 +75,8 @@
           <p style="font-size:clamp(17px,2vw,20px);line-height:1.5;max-width:62ch;margin:0 0 var(--space-4)">Prof.
             Carlos Pereira Santos is Professor of Applied Data Science and Artificial Intelligence at Breda University
             of Applied Sciences (BUas), the Netherlands. His research focuses on <span
-              style="background:linear-gradient(to top,var(--color-accent-300) 0,var(--color-accent-300) 0.34em,transparent 0.34em);padding:0 0.08em">data-driven
-              real-time systems, applied AI, game engine technology, and distributed computing</span>.</p>
+              style="background:linear-gradient(to top,var(--color-accent-300) 0,var(--color-accent-300) 0.34em,transparent 0.34em);padding:0 0.08em"></span>data-driven
+            real-time systems, applied AI, game engine technology, and distributed computing.</p>
           <p style="max-width:62ch;margin:0 0 var(--space-6)" class="text-muted">Alongside his technical work, he shapes
             the university's AI policy, infrastructure, and laboratory strategy, and leads applied AI research
             initiatives.</p>
@@ -102,7 +101,7 @@
         </sc-if>
       </header>
 
-      <div data-reveal
+      <!--div data-reveal
         style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));border-top:2px solid var(--color-divider);border-bottom:2px solid var(--color-divider)">
         <sc-for list="{{ stats }}" as="stat" hint-placeholder-count="4">
           <div style="padding:var(--space-6) var(--space-4) var(--space-6) 0">
@@ -117,30 +116,7 @@
               {{ stat.label }}</div>
           </div>
         </sc-for>
-      </div>
-
-      <section data-reveal style="padding:clamp(40px,6vw,72px) 0 0">
-        <div style="display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:clamp(20px,4vw,48px)"
-          class="split">
-          <h2 style="font-size:clamp(24px,3vw,32px);letter-spacing:-0.02em;margin:0">Research</h2>
-          <div>
-            <p style="font-size:clamp(16px,1.7vw,19px);line-height:1.55;max-width:68ch">I am an applied researcher
-              working at the intersection of Game Technology, Artificial Intelligence, and human-computer interaction.
-              My research asks how intelligent, interactive systems can be designed to produce insight and impact in
-              real-world contexts, from understanding human behaviour and experiences, to AI-driven tools for complex
-              societal decision-making.</p>
-            <p style="max-width:68ch" class="text-muted">The research I do has multiple audiences in mind: publications
-              for academic communities, frameworks and tools transferable to educational practice, and solutions
-              directly usable by industry partners. This triple orientation reflects my conviction that applied sciences
-              research is the critical bridge between fundamental inquiry and societal relevance.</p>
-            <div style="display:flex;gap:var(--space-2);flex-wrap:wrap;margin-top:var(--space-6)">
-              <sc-for list="{{ topicList }}" as="topic" hint-placeholder-count="7">
-                <a class="tag tag-accent-2" href="publications.html" style="text-decoration:none">{{ topic }}</a>
-              </sc-for>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div -->
 
       <hr class="hr" style="margin:clamp(40px,6vw,72px) 0 0">
 
@@ -150,7 +126,7 @@
           <div>
             <h2 style="font-size:clamp(24px,3vw,32px);letter-spacing:-0.02em;margin:0 0 var(--space-3)">Selected work
             </h2>
-            <p style="font-size:13px;line-height:1.5;color:var(--color-neutral-700);max-width:24ch">Four outputs from
+            <p style="font-size:13px;line-height:1.5;color:var(--color-neutral-700);max-width:24ch">Outputs from
               the last eight years that show the breadth and applied impact of the research.</p>
           </div>
           <div
@@ -173,6 +149,31 @@
                   {{ item.published }}</div>
               </article>
             </sc-for>
+          </div>
+        </div>
+      </section>
+
+      <hr class="hr" style="margin:clamp(40px,6vw,72px) 0 0">
+
+      <section data-reveal style="padding:clamp(40px,6vw,72px) 0 0">
+        <div style="display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:clamp(20px,4vw,48px)"
+          class="split">
+          <h2 style="font-size:clamp(24px,3vw,32px);letter-spacing:-0.02em;margin:0">Research</h2>
+          <div>
+            <p style="font-size:clamp(16px,1.7vw,19px);line-height:1.55;max-width:68ch">I am an applied researcher
+              working at the intersection of Game Technology, Artificial Intelligence, and human-computer interaction.
+              My research asks how intelligent, interactive systems can be designed to produce insight and impact in
+              real-world contexts, from understanding human behaviour and experiences, to AI-driven tools for complex
+              societal decision-making.</p>
+            <p style="max-width:68ch" class="text-muted">The research I do has multiple audiences in mind: publications
+              for academic communities, frameworks and tools transferable to educational practice, and solutions
+              directly usable by industry partners. This triple orientation reflects my conviction that applied sciences
+              research is the critical bridge between fundamental inquiry and societal relevance.</p>
+            <div style="display:flex;gap:var(--space-2);flex-wrap:wrap;margin-top:var(--space-6)">
+              <sc-for list="{{ topicList }}" as="topic" hint-placeholder-count="7">
+                <a class="tag tag-accent-2" href="publications.html" style="text-decoration:none">{{ topic }}</a>
+              </sc-for>
+            </div>
           </div>
         </div>
       </section>
@@ -264,7 +265,7 @@
   <script type="text/x-dc" data-dc-script
     data-props="{&quot;showPortrait&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;},&quot;showLabs&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;}}">
 class Component extends DCLogic {
-  state = { topicList: [] };
+  state = { topicList: [], profile: null };
 
   componentDidMount() {
     import('./src/reveal.js').then((m) => {
@@ -273,10 +274,11 @@ class Component extends DCLogic {
       this.teardownCounters = m.animateCounters(root);
     });
     import('./src/cv.js').then(async (cv) => {
-      const data = await cv.loadCvData('src/cv-data.json');
+      const [publications, profile] = await Promise.all([cv.loadPublications(), cv.loadCv()]);
       this.setState({
-        topicList: cv.topics(data.publications),
-        pubCount: data.publications.length,
+        topicList: cv.topics(publications),
+        pubCount: publications.length,
+        profile,
       });
     });
   }
@@ -287,36 +289,19 @@ class Component extends DCLogic {
   }
 
   renderVals() {
+    // Empty lists until src/cv.json has loaded; the markup falls back to placeholders.
+    const profile = this.state.profile || {
+      highlights: [], positions: [], education: [], labs: [], stats: [],
+    };
     return {
       showPortrait: this.props.showPortrait ?? true,
       showLabs: this.props.showLabs ?? true,
       topicList: this.state.topicList,
-      stats: [
-        { prefix: '', num: this.state.pubCount || 46, suffix: '+', label: 'Peer-reviewed publications' },
-        { prefix: '', num: 30, suffix: '+', label: 'Completed R&D projects' },
-        { prefix: '', num: 25, suffix: '', label: 'Researchers led at Cradle' },
-        { prefix: '€', num: 7, suffix: 'M', label: 'Largest grant (VIBE)' },
-      ],
-      highlights: [
-        { index: '01', name: 'Procedural Ocean', years: '2023–2024', desc: 'Led Horizon Europe project generating AI-driven 3D offshore environments based on GIS data for energy planning and decision-making.', published: 'BUILD-IT 2023 · COG 2026' },
-        { index: '02', name: 'PlanV', years: '2021–2023', desc: 'Virtual Productions applied research (w/ Painting Practice) using VR pre-visualisation built on Unreal Engine, enabling film and television production professionals to iterate on set design, cameras, lighting, and animation in real time.', published: 'His Dark Materials (BBC/HBO) · Wednesday (Netflix)' },
-        { index: '03', name: 'VIBE', years: '2018–2023', desc: 'Led project developing photogrammetry-based digital human avatars and embodied conversational agents for medical simulation training.', published: 'ACM IVA 2023 · ACM IUI 2023' },
-        { index: '04', name: 'MSP Challenge', years: '2016–2019', desc: 'Co-developed multi-awarded serious game platform for Marine Spatial Planning across five international seas.', published: 'Journal of Ocean Technology · Ecology & Society' },
-      ],
-      positions: [
-        { years: 'Since 2025', title: 'Professor Applied Data Science and Artificial Intelligence', org: 'Breda University of Applied Sciences' },
-        { years: '2015 — 2025', title: 'Cradle Research Lab Coordinator & Lead Researcher', org: 'Breda University of Applied Sciences' },
-        { years: '2009 — 2015', title: 'Senior Lecturer', org: 'Breda University of Applied Sciences' },
-        { years: '2001 — 2009', title: 'Technical Director: Aeronautics, Security and Defence', org: 'GMV / Skysoft Portugal, SA' },
-        { years: '2001 — 2003', title: 'Teaching Assistant, Department of System and Informatics', org: 'Setúbal Polytechnic University of Technology' },
-        { years: '1998 — 2000', title: 'Junior Teaching Assistant, Department of Informatics', org: 'New University of Lisbon' },
-      ],
-      education: [
-        { year: '2019', title: 'Doctor of Philosophy — Understanding People through Games', detail: 'Eindhoven University of Technology, promoted by Prof. Dr. Panos Markopoulos' },
-        { year: '2004', title: 'Master of Science in Computer Science', detail: "New University of Lisbon — Contextual information support for Augmented environments, supervised by Prof. Dr. Nuno Correia" },
-        { year: '2000', title: 'Software Engineer and Development (5 year) Degree', detail: 'New University of Lisbon — distinction award: Best Software Engineer Student' },
-      ],
-      labs: ['AI Makerspace', 'XR Stage (Virtual Production Studio)', 'XR Lab', 'Motion Capture Studio', 'Photogrammetry Studio'],
+      stats: profile.stats.map((s) => (s.fromPubCount ? { ...s, num: this.state.pubCount || s.num } : s)),
+      highlights: profile.highlights,
+      positions: profile.positions,
+      education: profile.education,
+      labs: profile.labs,
     };
   }
 }
