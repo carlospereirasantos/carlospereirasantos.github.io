@@ -1,0 +1,16 @@
+{
+  // Editor-only: makes VS Code check the JSDoc types in the two authored
+  // modules, which is what the deleted .ts files used to provide. No build
+  // step and no runtime effect — delete this file and the site is unchanged.
+  // Scoped deliberately: ds_bundle.js is vendored and .vscode/serve.mjs would
+  // need @types/node, which this project has no dependencies for.
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "checkJs": true,
+    "noEmit": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"]
+  },
+  "include": ["src/cv.js", "src/reveal.js"]
+}

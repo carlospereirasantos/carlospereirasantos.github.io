@@ -18,5 +18,5 @@ node_modules/
 *.log
 *.tsbuildinfo
 
-# NOTE: .image-slots.state.json is deliberately NOT ignored.
-# It holds every project image as base64 and is what the pages render from.
+# NOTE: nothing under data/, downloads/ or images/ is ignored — those are the
+# site's content, not build output.

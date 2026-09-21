@@ -90,6 +90,19 @@ const server = createServer(async (req, res) => {
 });
 
 const p = port();
+
+server.on('error', (err) => {
+  if (err.code === 'EADDRINUSE') {
+    console.error(
+      `Port ${p} is already in use — another server is probably still running.
+` +
+        `Stop it, or start this one on a different port:  node .vscode/serve.mjs -p ${p + 1}`,
+    );
+    process.exit(1);
+  }
+  throw err;
+});
+
 server.listen(p, '127.0.0.1', () => {
   console.log(`Serving HTTP on http://localhost:${p}/  (Ctrl+C to stop)`);
 });

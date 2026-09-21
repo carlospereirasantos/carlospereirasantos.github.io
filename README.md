@@ -8,20 +8,16 @@ Static HTML; no build step, no dependencies.
 The pages fetch their JSON over HTTP and import ES modules, so opening
 `index.html` from disk (`file://`) fails on CORS — it has to be served.
 
-* **In VS Code:** press <kbd>F5</kbd> ("Serve site"). The server starts and a
-  browser opens on <http://localhost:8080/>; stopping the debug session stops
-  the server. Or run the "serve site" task on its own.
+* **In VS Code:** press <kbd>F5</kbd> ("Serve site (Edge)" or "(Chrome)").
+  VS Code runs the server, waits for it to print its URL, then opens the site.
+  It owns the process, so stopping the debug session stops the server — no
+  stale one left holding the port. The "serve site" task runs it standalone.
 * **From a terminal:** `npm start` (or `node .vscode/serve.mjs -p 3000`).
 
 `.vscode/serve.mjs` is a static server written against Node's standard
 library — nothing to install — with the two things testing needs: correct
 MIME types for the `.webp` images and the ES modules, and
 `Cache-Control: no-store` so a reload always picks up the latest edit.
-
-Note that dropping a new image onto an `<image-slot>` will not persist when
-served this way — slots read their state over `fetch()` but write through the
-design-canvas host, which is not running. Only `index.html` still uses a slot
-(the portrait); project images are plain files (see below).
 
 ## Pages
 
@@ -35,23 +31,26 @@ design-canvas host, which is not running. Only `index.html` still uses a slot
 
 | Path | Purpose |
 | --- | --- |
-| `src/publications.json` | Publication list — edit this to add a paper |
-| `src/projects.json` | Project list — edit this to add a project |
-| `src/cv.json` | Profile content: highlights, positions, education, labs, stats |
-| `src/cv.ts` / `cv.js` | Data loading and client-side filtering (`.js` is what ships) |
-| `src/reveal.ts` / `reveal.js` | Scroll reveal animations |
+| `data/publications.json` | Publication list — edit this to add a paper |
+| `data/projects.json` | Project list — edit this to add a project |
+| `data/cv.json` | Profile content: highlights, positions, education, labs, stats |
+| `downloads/` | CV and biographical sketch as PDFs, ready to link |
+| `src/cv.js` | Data loading and client-side filtering; JSDoc types for the JSON |
+| `src/reveal.js` | Scroll reveal animations |
 | `src/theme-marigold.css` | Colour and type theme layered over the design system |
-| `src/styles.css`, `src/_ds_bundle.js` | Modernist design system — stylesheet and bundle |
+| `src/styles.css`, `src/ds_bundle.js` | Modernist design system — stylesheet and bundle |
+| `src/readme.md` | The design system's own guide — tokens, classes, rules |
+| `src/_ds_manifest.json`, `src/_adherence.oxlintrc.json` | Design-canvas authoring metadata; nothing loads them at runtime |
 | `images/projects/` | Project photos and logos, named `<slot>.webp` / `logo-<slot>.webp` |
-| `support.js`, `image-slot.js` | Design-canvas runtime and editable image slots |
-| `.image-slots.state.json` | Images held as base64 by the image slots — keep tracked |
+| `support.js` | Design-canvas runtime that renders the pages |
 | `CNAME` | Custom domain for GitHub Pages |
 | `.vscode/`, `package.json` | Local test server config (see Running locally) |
-| `notes/`, `uploads/` | Source CVs the site content was written from |
+| `jsconfig.json` | Editor-only type checking for `src/*.js`; no runtime effect |
+| `notes/` | Text extracted from the CVs, used when writing the content |
 
 ## Editing content
 
-All page content lives in the three JSON files under `src/` — no HTML editing needed
+All page content lives in the three JSON files under `data/` — no HTML editing needed
 to add a publication, a project, or a job. Each page loads only the file it needs:
 
 | Page | Loads |
@@ -75,13 +74,32 @@ drop the file in `images/projects/` and add the path.
 Google Analytics (GA4, `G-FTNCFJS3SE`) is loaded from the `<helmet>` block of
 each page, which the runtime injects into the document head.
 
+## Types
+
+There is no build step and no TypeScript source — `src/*.js` is what the browser
+loads and the only thing to edit. Types are declared as JSDoc at the top of
+`src/cv.js`, which is also the data dictionary for the JSON files: it is the one
+place that records what the terse publication keys (`y`, `a`, `t`, `v`, `k`,
+`st`, `tp`) mean, and which topics and publication kinds are valid.
+
+`jsconfig.json` turns those annotations into real editor type-checking, the way
+the old `.ts` files did. It affects the editor only — delete it and the site is
+unchanged. To check from a terminal:
+
+```
+npx -p typescript tsc -p jsconfig.json --noEmit
+```
+
 ## Deploying
 
 GitHub Pages serves the repository root. Two things to know:
 
-* **`.nojekyll` must stay.** Without it Pages runs the files through Jekyll,
-  which silently drops anything whose name begins with `_` or `.` — here that
-  meant `src/_ds_bundle.js` and `.image-slots.state.json` returning 404.
+* **Never give a file the site loads a name starting with `_` or `.`.** Pages
+  runs the repo through Jekyll, which silently drops those — that is why
+  `_ds_bundle.js` was renamed to `ds_bundle.js`. (Adding a `.nojekyll` file at
+  the root is the alternative fix.) The two `_`-prefixed files left under `src/`
+  are authoring metadata that nothing fetches, so their being dropped is
+  harmless.
 * **Pages caches aggressively.** It sends `Cache-Control: max-age=604800`, so a
   browser can hold a week-old copy of `cv.js` or a page. After a deploy, reload
   with <kbd>Ctrl</kbd>+<kbd>F5</kbd> before concluding something is broken — the

@@ -1,25 +1,40 @@
 {
-  // F5 starts the "serve site" task and opens the site in a browser.
-  // Stopping the debug session also stops the server.
+  // F5 runs the static server, waits for it to report its URL, then opens the
+  // site. VS Code owns the server process, so stopping the debug session stops
+  // the server too — no stale process holding port 8080.
   "version": "0.2.0",
   "configurations": [
     {
       "name": "Serve site (Edge)",
-      "type": "msedge",
+      "type": "node",
       "request": "launch",
-      "url": "http://localhost:8080/",
-      "webRoot": "${workspaceFolder}",
-      "preLaunchTask": "serve site",
-      "postDebugTask": "stop serving"
+      "program": "${workspaceFolder}/.vscode/serve.mjs",
+      "args": ["-p", "8080"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "serverReadyAction": {
+        "pattern": "Serving HTTP on (https?://[^ ]+)",
+        "uriFormat": "%s",
+        "action": "debugWithEdge",
+        "webRoot": "${workspaceFolder}",
+        "killOnServerStop": true
+      }
     },
     {
       "name": "Serve site (Chrome)",
-      "type": "chrome",
+      "type": "node",
       "request": "launch",
-      "url": "http://localhost:8080/",
-      "webRoot": "${workspaceFolder}",
-      "preLaunchTask": "serve site",
-      "postDebugTask": "stop serving"
+      "program": "${workspaceFolder}/.vscode/serve.mjs",
+      "args": ["-p", "8080"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "serverReadyAction": {
+        "pattern": "Serving HTTP on (https?://[^ ]+)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome",
+        "webRoot": "${workspaceFolder}",
+        "killOnServerStop": true
+      }
     }
   ]
 }

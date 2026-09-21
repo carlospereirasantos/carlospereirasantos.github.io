@@ -21,7 +21,6 @@
       <link rel="stylesheet" href="src/styles.css">
       <script src="src/ds_bundle.js"></script>
       <link rel="stylesheet" href="src/theme-marigold.css">
-      <script src="./image-slot.js"></script>
       <style>
         body {
           margin: 0;
@@ -91,10 +90,8 @@
             <div
               style="position:relative;width:100%;aspect-ratio:4/5;border:2px solid var(--color-divider);border-radius:var(--radius-lg);overflow:hidden">
 
-              <img id="portrait" shape="rounded" radius="16" src="images/portrait.webp" alt="Carlos Pereira Santos"
+              <img id="portrait" src="images/portrait.webp" alt="Carlos Pereira Santos"
                 style="width:100%;height:100%;object-fit:cover;border-radius:16px">
-              <image-slot id="portrait" shape="rounded" radius="16" placeholder="Carlos Pereira Santos"></image-slot>
-              </image-slot>
             </div>
             <figcaption>Carlos Pereira Santos</figcaption>
           </figure>
@@ -289,7 +286,7 @@ class Component extends DCLogic {
   }
 
   renderVals() {
-    // Empty lists until src/cv.json has loaded; the markup falls back to placeholders.
+    // Empty lists until data/cv.json has loaded; the markup falls back to placeholders.
     const profile = this.state.profile || {
       highlights: [], positions: [], education: [], labs: [], stats: [],
     };
