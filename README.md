@@ -74,3 +74,15 @@ drop the file in `images/projects/` and add the path.
 
 Google Analytics (GA4, `G-FTNCFJS3SE`) is loaded from the `<helmet>` block of
 each page, which the runtime injects into the document head.
+
+## Deploying
+
+GitHub Pages serves the repository root. Two things to know:
+
+* **`.nojekyll` must stay.** Without it Pages runs the files through Jekyll,
+  which silently drops anything whose name begins with `_` or `.` — here that
+  meant `src/_ds_bundle.js` and `.image-slots.state.json` returning 404.
+* **Pages caches aggressively.** It sends `Cache-Control: max-age=604800`, so a
+  browser can hold a week-old copy of `cv.js` or a page. After a deploy, reload
+  with <kbd>Ctrl</kbd>+<kbd>F5</kbd> before concluding something is broken — the
+  local test server sends `no-store`, so this never shows up locally.
