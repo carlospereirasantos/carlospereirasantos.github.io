@@ -136,7 +136,15 @@
               <article
                 style="padding:0 0 var(--space-6);margin-bottom:var(--space-6);border-bottom:1px solid var(--color-neutral-300);border-left:3px solid transparent;padding-left:0;transition:border-left-color .18s ease,padding-left .18s cubic-bezier(.2,.7,.3,1)"
                 style-hover="border-left-color:var(--color-accent);padding-left:var(--space-4)">
-                <div style="display:flex;gap:var(--space-2);flex-wrap:wrap;margin-bottom:var(--space-3)">
+                <div style="display:flex;gap:var(--space-2);flex-wrap:wrap;margin-bottom:var(--space-3);align-items:center">
+                  <button type="button" onClick="{{ pub.onBib }}" title="{{ pub.bibTitle }}" class="tag tag-outline"
+                    style="font-size:10px;cursor:pointer;background:transparent;font-family:inherit;line-height:inherit"
+                    style-hover="background:var(--color-accent-100)">BibTeX ↓</button>
+                  <sc-if value="{{ pub.url }}" hint-placeholder-val="{{ false }}">
+                    <a href="{{ pub.url }}" target="_blank" rel="noopener" title="{{ pub.urlNote }}"
+                      class="tag tag-outline" style="font-size:10px;text-decoration:none"
+                      style-hover="background:var(--color-accent-100)">{{ pub.linkLabel }} ↗</a>
+                  </sc-if>
                   <span class="tag tag-neutral" style="font-size:10px">{{ pub.kindLabel }}</span>
                   <sc-if value="{{ pub.st }}" hint-placeholder-val="{{ false }}">
                     <span class="tag tag-accent" style="font-size:10px">{{ pub.st }}</span>
@@ -186,6 +194,34 @@ const CHIP_BASE =
   'cursor:pointer;font-family:var(--font-heading);font-weight:800;font-size:11px;' +
   'letter-spacing:0.05em;text-transform:uppercase;padding:5px 9px;border-radius:var(--radius-sm);' +
   'line-height:1.2;transition:background .12s,border-color .12s,transform .12s';
+
+/** Cite key from the BibTeX header line, e.g. "@article{santos2019profiling," */
+function citeKey(bib) {
+  const m = /^@\w+\{([^,]+),/.exec(bib || '');
+  return m ? m[1].trim() : '';
+}
+
+function slug(s) {
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '').slice(0, 60);
+}
+
+/** Saves one entry's BibTeX as a .bib file named after its cite key. */
+function downloadBib(pub) {
+  if (!pub.bib) return;
+  const blob = new Blob([pub.bib.replace(/\s+$/, '') + '\n'], {
+    type: 'application/x-bibtex;charset=utf-8',
+  });
+  const href = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = href;
+  a.download = (citeKey(pub.bib) || slug(pub.t)) + '.bib';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  // Revoked on a timer rather than immediately: Safari aborts the save if the
+  // blob URL disappears in the same tick as the click.
+  setTimeout(() => URL.revokeObjectURL(href), 10000);
+}
 
 class Component extends DCLogic {
   state = { publications: null, cv: null, year: null, kind: null, topic: null };
@@ -237,7 +273,18 @@ class Component extends DCLogic {
       ),
       groups: cv.groupByYear(shown).map((g) => ({
         year: g.year,
-        items: g.items.map((p) => ({ ...p, kindLabel: cv.KIND_LABELS[p.k] })),
+        items: g.items.map((p) => ({
+          ...p,
+          kindLabel: cv.KIND_LABELS[p.k],
+          // '' rather than undefined so <sc-if> sees a defined falsy value.
+          url: p.url || '',
+          // Label from the data, not the URL: several links are PDFs served
+          // without a .pdf extension, and some .pdf-looking URLs are landing
+          // pages. urlKind says which it really is.
+          linkLabel: p.urlKind === 'record' ? 'Record' : 'PDF',
+          bibTitle: 'Download BibTeX for ' + p.t,
+          onBib: () => downloadBib(p),
+        })),
       })),
       resultLabel:
         shown.length === pubs.length

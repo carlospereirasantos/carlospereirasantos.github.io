@@ -27,6 +27,12 @@
  * @property {string} [st] Status note, e.g. "accepted"
  * @property {string} [doi] DOI or permanent link
  * @property {Topic[]} tp Research topics
+ * @property {string} [url] Link to the PDF or repository record, when one is known
+ * @property {'pdf'|'record'} [urlKind] Whether `url` is the file itself or a
+ *   landing page — not inferable from the URL, several PDFs lack a .pdf suffix
+ * @property {string} [urlNote] Where `url` is hosted, e.g. "Open access (MDPI)";
+ *   author copies on ResearchGate / Academia.edu may need a free account
+ * @property {string} bib BibTeX entry, verbatim, LaTeX escapes included
  */
 
 /**

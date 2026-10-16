@@ -66,6 +66,22 @@ all three in parallel for anything that needs everything at once.
 A `stats` entry in `cv.json` marked `"fromPubCount": true` has its number replaced
 at runtime by the live publication count, so it never goes stale.
 
+Each publication carries a `bib` field holding its BibTeX entry verbatim, and
+the four with a known PDF or repository record also carry `url` plus a `urlNote`
+saying what it points at. Two of those notes read "file link to confirm" — those
+records have not been verified against the publisher.
+
+30 of the 46 also carry `url`, `urlKind` and `urlNote`. `urlKind` is `pdf` or
+`record` and is stored rather than guessed from the URL — several PDFs are
+served without a `.pdf` suffix and some `.pdf`-looking URLs are landing pages.
+
+The publications page renders these ahead of the kind label: a **BibTeX**
+button on every entry, which saves it as `<citekey>.bib`, and for the 30 with a
+link a **PDF** or **Record** chip, labelled from `urlKind` so the page never
+promises a file it cannot deliver. `urlNote` becomes the link's tooltip and
+says where the copy is hosted — author copies on ResearchGate and Academia.edu
+may ask the reader for a free account.
+
 Project images come from the `logo` and `image` paths in `projects.json`. Leave a
 key out and that block is hidden rather than rendered empty — a project with no
 photo drops the image column and gives the space to its description. To add one,

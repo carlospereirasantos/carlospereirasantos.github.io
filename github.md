@@ -66,3 +66,30 @@ date: 2026-09-13T00:00:00Z
 - The old `stop serving` task only echoed text, leaving the server running and
   the next F5 hitting EADDRINUSE; removed, since VS Code now owns the process.
 - `serve.mjs` reports a port clash in one clear line instead of a stack trace.
+
+## 2026-10-09 — BibTeX and paper links added
+- `data/publications.json` gained a `bib` field on all 46 entries (BibTeX
+  verbatim, LaTeX escapes intact) and `url` + `urlNote` on the 4 with a known
+  PDF or repository record. Source: a supplied publications.md built from the
+  CV dated 2026-07-29.
+- The 3 DOIs already in the JSON were cross-checked against the BibTeX and agree.
+- Nothing renders these yet — data only. File grew 15.8 KB -> 33.6 KB.
+
+## 2026-10-09 — BibTeX / PDF controls on the publications page
+- Each entry now leads with a BibTeX button (saves `<citekey>.bib`, cite key
+  parsed from the entry's own `@type{key,` line) followed, where known, by a
+  link to the paper — then the kind label as before.
+- Link text is PDF only when the URL really is a PDF; the two unverified
+  Tilburg repository records read "Record" instead, with `urlNote` as tooltip.
+- Verified end to end over the DevTools protocol: clicking a live button fires
+  a download named santos2026procedural.bib whose contents match the data.
+
+## 2026-10-10 — PDF links for 30 publications
+- Links from a Google Scholar sweep (October 2026) merged into
+  `data/publications.json`: 30 entries now have `url`, up from 4. 16 have none.
+- Added `urlKind` ("pdf" | "record"); the page label now reads from it instead
+  of guessing from the URL, which had become wrong in both directions.
+- Link check: 4 resolve directly to application/pdf, 4 to the expected HTML
+  (3 landing pages + a Google Drive viewer). The other 22 sit behind Cloudflare
+  bot challenges ("Just a moment..."), so they are unverifiable from a script
+  but fine in a browser.
