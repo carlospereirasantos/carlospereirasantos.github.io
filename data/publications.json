@@ -94,6 +94,9 @@
         "tp": [
             "Applied AI"
         ],
+        "url": "https://buas.hflip.co/99a7615cf8.html#page/26",
+        "urlKind": "web",
+        "urlNote": "Uncover direct access",
         "bib": "@article{santos2025shaping,\n  author = {Santos, Carlos Pereira and Melissen, Frans},\n  title = {{Shaping AI the European Way: BUas Leads Ethical and Sustainable Innovation in KreativEU}},\n  journal = {Uncover},\n  year = {2025},\n  volume = {9},\n  pages = {26--27}\n}"
     },
     {
@@ -163,6 +166,9 @@
         "tp": [
             "Digital Humans"
         ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3570945.3607323",
+        "urlKind": "pdf",
+        "urlNote": "ACM Open access",
         "bib": "@inproceedings{boudry2023portraying,\n  author = {Boudry, A. and Relouw, Joey and van Buggenum, Alexander and Santos, Carlos Pereira and Mayer, Igor},\n  title = {{Portraying Emotions on Digital Humans through Emotive Colour Maps}},\n  booktitle = {ACM International Conference on Intelligent Virtual Agents (IVA '23)},\n  year = {2023},\n  address = {Wuerzburg, Germany}\n}"
     },
     {
@@ -190,6 +196,9 @@
             "Applied AI",
             "Game Technology"
         ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3550082.3564188",
+        "urlKind": "pdf",
+        "urlNote": "ACM Open access",
         "bib": "@inproceedings{quartesan2022neural,\n  author = {Quartesan, Luca and Santos, Carlos Pereira},\n  title = {{Neural Bidirectional Texture Function Compression and Rendering}},\n  booktitle = {SIGGRAPH Asia 2022},\n  year = {2022}\n}"
     },
     {
@@ -332,6 +341,9 @@
         "tp": [
             "Player Modelling"
         ],
+        "url": "downloads/BIT2018-ProfilingEthicsOrientationThroughPlay-draft.pdf",
+        "urlKind": "pdf",
+        "urlNote": "Local PDF",
         "bib": "@article{santos2018profiling,\n  author = {Santos, Carlos Pereira and Khan, Vassilis-Javed and Markopoulos, Panos},\n  title = {{Profiling Ethics Orientation through Play}},\n  journal = {Behaviour \\& Information Technology},\n  year = {2018},\n  volume = {37},\n  number = {9},\n  pages = {926--935}\n}"
     },
     {
@@ -343,6 +355,9 @@
         "tp": [
             "Player Modelling"
         ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3232078.3232081",
+        "urlKind": "pdf",
+        "urlNote": "ACM Open access",
         "bib": "@inproceedings{santos2018interactive,\n  author = {Santos, Carlos Pereira and Khan, Vassilis-Javed and Markopoulos, Panos},\n  title = {{Interactive Narratives for Profiling Ethics Orientation}},\n  booktitle = {36th European Conference on Cognitive Ergonomics (ECCE 2018)},\n  year = {2018},\n  address = {The Netherlands}\n}"
     },
     {
@@ -380,6 +395,9 @@
             "Player Modelling",
             "Game Technology"
         ],
+        "url": "https://www.researchgate.net/profile/Vassilis-Javed-Khan/publication/317178404_GURaaS_An_End-User_Platform_for_Embedding_Research_Instruments_into_Games/links/592fc7b845851553b67ed301/GURaaS-An-End-User-Platform-for-Embedding-Research-Instruments-into-Games.pdf",
+        "urlKind": "pdf",
+        "urlNote": "ResearchGate Open access",
         "bib": "@inproceedings{santos2017guraas,\n  author = {Santos, Carlos Pereira and van de Haterd, Jeroen and Hutchinson, Kevin and Khan, Vassilis-Javed and Markopoulos, Panos},\n  title = {{GURaaS: An End-User Platform for Embedding Research Instruments into Games}},\n  booktitle = {6th International Symposium on End User Development (IS-EUD 2017)},\n  year = {2017},\n  address = {The Netherlands},\n  pages = {34--48}\n}"
     },
     {
@@ -391,6 +409,9 @@
         "tp": [
             "Player Modelling"
         ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3025171.3025196",
+        "urlKind": "pdf",
+        "urlNote": "ACM Open access",
         "bib": "@inproceedings{santos2017measuring,\n  author = {Santos, Carlos Pereira and Hutchinson, Kevin and Khan, Vassilis-Javed and Markopoulos, Panos},\n  title = {{Measuring Self-Esteem with Games}},\n  booktitle = {ACM Intelligent User Interfaces (IUI 2017)},\n  year = {2017},\n  address = {Cyprus},\n  pages = {95--105}\n}"
     },
     {
@@ -439,6 +460,9 @@
         "tp": [
             "Player Modelling"
         ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/2856767.2856805",
+        "urlKind": "pdf",
+        "urlNote": "ACM Open access",
         "bib": "@inproceedings{santos2016inferring,\n  author = {Santos, Carlos Pereira and Khan, Vassilis-Javed and Markopoulos, Panos},\n  title = {{Inferring a Player's Need for Cognition from Hints}},\n  booktitle = {ACM Intelligent User Interfaces (IUI 2016)},\n  year = {2016},\n  address = {USA}\n}"
     },
     {
